@@ -3,6 +3,8 @@ import { LANGUAGES, type Lang } from "@/lib/i18n/config";
 import { localizedPath } from "@/lib/i18n/utils";
 import { siteData } from "@/lib/site-data";
 
+export const dynamic = "force-static";
+
 const INDEXABLE_ROUTES = ["/", "/team", "/privacy-policy", "/terms"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {

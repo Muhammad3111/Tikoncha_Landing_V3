@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import { StaticRedirectPage } from "@/components/common/StaticRedirectPage";
 
 export default function PrivacyRedirectPage() {
-  redirect("/privacy-policy");
+  return <StaticRedirectPage to="/privacy-policy" />;
 }

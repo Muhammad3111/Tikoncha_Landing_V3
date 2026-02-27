@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+import { StaticRedirectPage } from "@/components/common/StaticRedirectPage";
 import { localizedPath } from "@/lib/i18n/utils";
 import { localizedStaticParams, resolveRouteLang } from "@/lib/routing";
 
@@ -15,5 +15,5 @@ export default async function LocalizedPrivacyRedirectPage({
 }) {
   const { lang } = await params;
   const activeLang = resolveRouteLang(lang);
-  redirect(localizedPath(activeLang, "/privacy-policy"));
+  return <StaticRedirectPage to={localizedPath(activeLang, "/privacy-policy")} />;
 }
