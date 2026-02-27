@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Host: tikoncha.uz
+Sitemap: https://tikoncha.uz/sitemap-index.xml
