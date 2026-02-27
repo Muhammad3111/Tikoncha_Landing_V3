@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type MouseEvent as ReactMouseEvent } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LANGUAGES, type Lang } from "@/lib/i18n/config";
@@ -202,6 +202,55 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
 
   const closeMenu = () => setMenuOpen(false);
 
+  const handleNavClick = (
+    event: ReactMouseEvent<HTMLAnchorElement>,
+    item: (typeof navItems)[number],
+  ) => {
+    setMenuOpen(false);
+    closeLanguageSwitcher();
+
+    if (
+      event.defaultPrevented ||
+      event.button !== 0 ||
+      event.metaKey ||
+      event.ctrlKey ||
+      event.shiftKey ||
+      event.altKey
+    ) {
+      return;
+    }
+
+    if (!item.sectionId) {
+      window.requestAnimationFrame(() => setActiveNavKey(item.key));
+      return;
+    }
+
+    const currentPath = normalizePath(pathname || window.location.pathname);
+    const normalizedHomePath = normalizePath(homePath);
+    if (currentPath !== normalizedHomePath) {
+      window.requestAnimationFrame(() => setActiveNavKey(item.key));
+      return;
+    }
+
+    const targetSection = document.getElementById(item.sectionId);
+    if (!targetSection) {
+      window.requestAnimationFrame(() => setActiveNavKey(item.key));
+      return;
+    }
+
+    event.preventDefault();
+
+    window.requestAnimationFrame(() => {
+      const headerHeight = Math.round(headerRef.current?.getBoundingClientRect().height ?? 72);
+      const sectionTop = targetSection.getBoundingClientRect().top + window.scrollY;
+      const targetTop = Math.max(0, Math.round(sectionTop - headerHeight));
+      const nextUrl = `${window.location.pathname}${window.location.search}#${item.sectionId}`;
+      window.history.pushState(null, "", nextUrl);
+      window.scrollTo({ top: targetTop, behavior: "auto" });
+      setActiveNavKey(item.key);
+    });
+  };
+
   return (
     <header
       ref={headerRef}
@@ -213,7 +262,16 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
     >
       <div className="site-header-bar mx-auto flex h-[72px] w-full max-w-[1360px] items-center justify-between px-5 lg:px-6">
         <Link href={homePath} className="inline-flex items-center">
-          <img src={siteData.images.logo} alt={t.layout.siteName} className="h-9 w-auto" width="728" height="144" />
+          <img
+            src={siteData.images.logo}
+            alt={t.layout.siteName}
+            className="h-9 w-auto"
+            width="728"
+            height="144"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
+          />
         </Link>
 
         <div className="flex items-center gap-3 sm:gap-5">
@@ -231,11 +289,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
                   aria-current={
                     isActive ? (item.key === "team" ? "page" : "location") : undefined
                   }
-                  onClick={() => {
-                    setMenuOpen(false);
-                    closeLanguageSwitcher();
-                    window.requestAnimationFrame(() => setActiveNavKey(item.key));
-                  }}
+                  onClick={(event) => handleNavClick(event, item)}
                 >
                   {item.label}
                 </a>
@@ -320,11 +374,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
                   aria-current={
                     isActive ? (item.key === "team" ? "page" : "location") : undefined
                   }
-                  onClick={() => {
-                    closeMenu();
-                    closeLanguageSwitcher();
-                    window.requestAnimationFrame(() => setActiveNavKey(item.key));
-                  }}
+                  onClick={(event) => handleNavClick(event, item)}
                 >
                   {item.label}
                 </a>
@@ -347,7 +397,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
                 rel="noopener noreferrer"
                 data-site-menu-link
               >
-                <img src={siteData.images.footer.instagramIcon} alt="" />
+                <img src={siteData.images.footer.instagramIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
               </a>
               <a
                 href={siteData.constants.telegramUrl}
@@ -357,7 +407,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
                 rel="noopener noreferrer"
                 data-site-menu-link
               >
-                <img src={siteData.images.footer.telegramIcon} alt="" />
+                <img src={siteData.images.footer.telegramIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
               </a>
             </div>
 
@@ -369,11 +419,11 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
                 rel="noopener noreferrer"
                 data-site-menu-link
               >
-                <img src={siteData.images.hero.playMarketIcon} alt="" />
+                <img src={siteData.images.hero.playMarketIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
                 <span>{t.home.hero.playMarketLabel}</span>
               </a>
               <a href={siteData.constants.appStoreUrl} className="site-header-panel-store-link" data-site-menu-link>
-                <img src={siteData.images.hero.appStoreIcon} alt="" />
+                <img src={siteData.images.hero.appStoreIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
                 <span>{t.home.hero.appStoreLabel}</span>
               </a>
             </div>

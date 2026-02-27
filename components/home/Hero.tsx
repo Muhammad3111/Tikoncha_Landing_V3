@@ -104,7 +104,7 @@ export function Hero({ lang, t, sectionId = "hero" }: Props) {
               className="hero-chip inline-flex items-center gap-1.5 rounded-[24px] bg-white/10 px-2.5 py-2 text-sm font-normal leading-[18px] text-white/95"
               data-hero-chip
             >
-              <img src={siteData.images.hero.guaranteedIcon} alt="" className="size-5" />
+              <img src={siteData.images.hero.guaranteedIcon} alt="" className="size-5" width="20" height="20" decoding="async" />
               {t.home.hero.chipLabel}
             </span>
 
@@ -126,14 +126,14 @@ export function Hero({ lang, t, sectionId = "hero" }: Props) {
                 href={siteData.constants.playMarketUrl}
                 className={heroActionClass}
               >
-                <img src={siteData.images.hero.playMarketIcon} alt="" className="size-6" />
+                <img src={siteData.images.hero.playMarketIcon} alt="" className="size-6" width="24" height="24" decoding="async" />
                 <span>{t.home.hero.playMarketLabel}</span>
               </a>
               <a
                 href={siteData.constants.appStoreUrl}
                 className={heroActionClass}
               >
-                <img src={siteData.images.hero.appStoreIcon} alt="" className="size-6" />
+                <img src={siteData.images.hero.appStoreIcon} alt="" className="size-6" width="24" height="24" decoding="async" />
                 <span>{t.home.hero.appStoreLabel}</span>
               </a>
               <button
@@ -143,7 +143,7 @@ export function Hero({ lang, t, sectionId = "hero" }: Props) {
                 data-video-src={siteData.constants.videoStreamUrl}
                 aria-label={t.home.hero.videoLabel}
               >
-                <img src={siteData.images.hero.playIcon} alt="" className="size-6" />
+                <img src={siteData.images.hero.playIcon} alt="" className="size-6" width="24" height="24" decoding="async" />
                 <span>{t.home.hero.videoLabel}</span>
               </button>
             </div>
@@ -157,15 +157,18 @@ export function Hero({ lang, t, sectionId = "hero" }: Props) {
                 className="size-full object-cover object-center"
                 width="1400"
                 height="1089"
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
               />
             </div>
 
-            <img src={siteData.images.hero.instagramIcon} alt="" className="absolute left-[8%] top-[-9%] size-[92px] rotate-[-19deg] sm:size-[98px]" data-hero-social />
-            <img src={siteData.images.hero.facebookIcon} alt="" className="absolute right-[7%] top-[-2%] size-[66px] rotate-[18deg] opacity-70 sm:size-[67px]" data-hero-social />
-            <img src={siteData.images.hero.tikTokIcon} alt="" className="absolute right-[-2%] top-[31%] size-[84px] rotate-[15deg] sm:size-[88px]" data-hero-social />
-            <img src={siteData.images.hero.youtubeIcon} alt="" className="absolute bottom-[16%] right-[17%] size-[78px] rotate-[17deg] sm:size-[81px]" data-hero-social />
-            <img src={siteData.images.hero.snapchatIcon} alt="" className="absolute bottom-[16%] left-[6%] size-[74px] rotate-[-20deg] opacity-60 sm:size-[77px]" data-hero-social />
-            <img src={siteData.images.hero.twitchIcon} alt="" className="absolute left-[-3%] top-[30%] size-[64px] rotate-[22deg] opacity-50 sm:size-[67px]" data-hero-social />
+            <img src={siteData.images.hero.instagramIcon} alt="" width="98" height="98" decoding="async" className="absolute left-[8%] top-[-9%] size-[92px] rotate-[-19deg] sm:size-[98px]" data-hero-social />
+            <img src={siteData.images.hero.facebookIcon} alt="" width="67" height="67" decoding="async" className="absolute right-[7%] top-[-2%] size-[66px] rotate-[18deg] opacity-70 sm:size-[67px]" data-hero-social />
+            <img src={siteData.images.hero.tikTokIcon} alt="" width="88" height="88" decoding="async" className="absolute right-[-2%] top-[31%] size-[84px] rotate-[15deg] sm:size-[88px]" data-hero-social />
+            <img src={siteData.images.hero.youtubeIcon} alt="" width="81" height="81" decoding="async" className="absolute bottom-[16%] right-[17%] size-[78px] rotate-[17deg] sm:size-[81px]" data-hero-social />
+            <img src={siteData.images.hero.snapchatIcon} alt="" width="77" height="77" decoding="async" className="absolute bottom-[16%] left-[6%] size-[74px] rotate-[-20deg] opacity-60 sm:size-[77px]" data-hero-social />
+            <img src={siteData.images.hero.twitchIcon} alt="" width="67" height="67" decoding="async" className="absolute left-[-3%] top-[30%] size-[64px] rotate-[22deg] opacity-50 sm:size-[67px]" data-hero-social />
           </div>
         </div>
       </section>

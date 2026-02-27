@@ -24,9 +24,14 @@ export function SiteShell({ lang, routePath, landingTheme = false, children }: P
 
       {landingTheme && <LandingBackground />}
 
+      <a href="#main-content" className="skip-to-content">
+        Skip to content
+      </a>
       <SiteHeader lang={lang} routePath={routePath} t={t} />
       <CursorTrail />
-      <main className="mx-auto w-full max-w-[1360px] px-5 lg:px-6">{children}</main>
+      <main id="main-content" tabIndex={-1} className="mx-auto w-full max-w-[1360px] px-5 lg:px-6">
+        {children}
+      </main>
       <SiteFooter lang={lang} t={t} />
 
       <VideoModalManager />

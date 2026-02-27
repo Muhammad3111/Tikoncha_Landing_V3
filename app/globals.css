@@ -17,6 +17,29 @@ body {
   min-height: 100vh;
 }
 
+.skip-to-content {
+  position: fixed;
+  left: 12px;
+  top: 12px;
+  z-index: 2000;
+  transform: translateY(-180%);
+  border-radius: 10px;
+  background: #111318;
+  color: #ffffff;
+  padding: 10px 14px;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 180ms ease;
+}
+
+.skip-to-content:focus-visible {
+  transform: translateY(0);
+  outline: 2px solid #fdb022;
+  outline-offset: 2px;
+}
+
 .font-sans {
   font-family: var(--font-sans);
 }

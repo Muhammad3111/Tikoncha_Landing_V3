@@ -23,11 +23,11 @@ export function AboutTikonchaSection({ lang, sectionId = "about" }: Props) {
 
           <div className="about-cta-actions">
             <a href={siteData.constants.playMarketUrl} className="about-cta-action">
-              <img src={siteData.images.about.playMarketIcon} alt="" />
+              <img src={siteData.images.about.playMarketIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
               <span>{content.playMarketLabel}</span>
             </a>
             <a href={siteData.constants.appStoreUrl} className="about-cta-action">
-              <img src={siteData.images.about.appStoreIcon} alt="" />
+              <img src={siteData.images.about.appStoreIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
               <span>{content.appStoreLabel}</span>
             </a>
             <button
@@ -37,7 +37,7 @@ export function AboutTikonchaSection({ lang, sectionId = "about" }: Props) {
               data-video-src={siteData.constants.videoStreamUrl}
               aria-label={content.videoLabel}
             >
-              <img src={siteData.images.about.playIcon} alt="" />
+              <img src={siteData.images.about.playIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
               <span>{content.videoLabel}</span>
             </button>
           </div>
@@ -45,7 +45,15 @@ export function AboutTikonchaSection({ lang, sectionId = "about" }: Props) {
 
         <div className="about-cta-visual" aria-hidden="true">
           <span className="about-cta-visual-glow"></span>
-          <img src={siteData.images.about.mascot} alt="" className="about-cta-illustration" width="900" height="1096" />
+          <img
+            src={siteData.images.about.mascot}
+            alt=""
+            className="about-cta-illustration"
+            width="900"
+            height="1096"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       </div>
     </section>

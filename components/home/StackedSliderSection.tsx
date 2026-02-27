@@ -358,13 +358,15 @@ export function StackedSliderSection({
       isLockedRef.current = false;
     };
 
-    const releaseLock = (direction: 1 | -1, delay = 0) => {
+    const getReleaseTargetTop = (direction: 1 | -1) => {
       const anchor = getSectionAnchorTop();
-      const fallbackDownTarget = anchor + hostSection.getBoundingClientRect().height + LOCK_EXIT_NUDGE_PX;
-      const nextSectionAnchor = getAdjacentSectionAnchorTop();
-      const targetTop =
-        direction > 0 ? (nextSectionAnchor ?? fallbackDownTarget) : Math.max(0, anchor - LOCK_EXIT_NUDGE_PX);
+      if (direction < 0) return Math.max(0, anchor - LOCK_EXIT_NUDGE_PX);
 
+      const fallbackDownTarget = anchor + hostSection.getBoundingClientRect().height + LOCK_EXIT_NUDGE_PX;
+      return getAdjacentSectionAnchorTop() ?? fallbackDownTarget;
+    };
+
+    const releaseLock = (direction: 1 | -1, delay = 0) => {
       const performRelease = () => {
         unfreezeScroll();
         lastReleaseDirectionRef.current = direction;
@@ -375,6 +377,7 @@ export function StackedSliderSection({
         touchStartYRef.current = null;
         touchCurrentYRef.current = null;
 
+        const targetTop = getReleaseTargetTop(direction);
         window.scrollTo({ top: targetTop, behavior: "auto" });
       };
 

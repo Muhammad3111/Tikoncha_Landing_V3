@@ -28,8 +28,6 @@ const seoByLang = projectExport.seo.byLang as Record<
     layout: { defaultTitle: string; defaultDescription: string };
     homeMeta: { title: string; description: string; keywords?: string };
     teamMeta: { title: string; description: string; keywords?: string };
-    blogMeta: { title: string; description: string; keywords?: string };
-    accountMeta: { title: string; description: string; keywords?: string };
     privacyMeta: { title: string; description: string; keywords?: string };
   }
 >;

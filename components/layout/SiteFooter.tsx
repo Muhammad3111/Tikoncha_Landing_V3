@@ -25,7 +25,15 @@ export function SiteFooter({ lang, t }: Props) {
         <div className="site-footer__top">
           <div className="site-footer__brand">
             <Link href={homePath} className="site-footer__logo-link" aria-label={t.layout.siteName}>
-              <img src={siteData.images.logo} alt={t.layout.siteName} className="site-footer__logo" width="728" height="144" />
+              <img
+                src={siteData.images.logo}
+                alt={t.layout.siteName}
+                className="site-footer__logo"
+                width="728"
+                height="144"
+                loading="lazy"
+                decoding="async"
+              />
             </Link>
 
             <p className="site-footer__tagline">{t.layout.footer.tagline}</p>
@@ -38,7 +46,7 @@ export function SiteFooter({ lang, t }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={siteData.images.footer.instagramIcon} alt="" />
+                <img src={siteData.images.footer.instagramIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
               </a>
               <a
                 href={siteData.constants.telegramUrl}
@@ -47,7 +55,7 @@ export function SiteFooter({ lang, t }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={siteData.images.footer.telegramIcon} alt="" />
+                <img src={siteData.images.footer.telegramIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
               </a>
             </div>
           </div>
@@ -82,17 +90,17 @@ export function SiteFooter({ lang, t }: Props) {
             <h2 className="site-footer__heading">{t.layout.footer.contactTitle}</h2>
             <ul className="site-footer__list site-footer__list--contact">
               <li className="site-footer__contact-item">
-                <img src={siteData.images.footer.locationIcon} alt="" />
+                <img src={siteData.images.footer.locationIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
                 <span>{t.layout.footer.location}</span>
               </li>
               <li className="site-footer__contact-item">
-                <img src={siteData.images.footer.callIcon} alt="" />
+                <img src={siteData.images.footer.callIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
                 <a href={phoneLink} className="site-footer__link">
                   {t.layout.footer.phone}
                 </a>
               </li>
               <li className="site-footer__contact-item">
-                <img src={siteData.images.footer.emailIcon} alt="" />
+                <img src={siteData.images.footer.emailIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
                 <a href={emailLink} className="site-footer__link">
                   {t.layout.footer.email}
                 </a>

@@ -14,6 +14,7 @@ export const buildCommonSchemas = (lang: Lang, pageTitle: string, pageDescriptio
       name: t.layout.siteName,
       url: siteData.siteUrl,
       logo: `${siteData.siteUrl}${siteData.images.logo}`,
+      sameAs: [siteData.constants.instagramUrl, siteData.constants.telegramUrl, siteData.constants.playMarketUrl],
       contactPoint: [
         {
           "@type": "ContactPoint",
