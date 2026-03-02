@@ -60,14 +60,10 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
   const stepRef = useRef<HTMLParagraphElement | null>(null);
   const layoutRef = useRef<HTMLDivElement | null>(null);
   const transitionTimelineRef = useRef<gsap.core.Timeline | null>(null);
-  const hasCompletedLastTabRef = useRef(false);
 
   useEffect(() => {
     activeIndexRef.current = activeIndex;
-    if (activeIndex >= Math.max(0, tabs.length - 1)) {
-      hasCompletedLastTabRef.current = true;
-    }
-  }, [activeIndex, tabs.length]);
+  }, [activeIndex]);
 
   useLayoutEffect(() => {
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -400,8 +396,9 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
     };
 
     const shouldInitiateLock = (direction: 1 | -1) => {
-      if (hasCompletedLastTabRef.current) return false;
       if (direction < 0) return false;
+      const current = activeIndexRef.current;
+      if (current >= lastIndex) return false;
       if (isSectionTopAligned()) return true;
 
       const bounds = getViewportBounds();
@@ -412,8 +409,7 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
         rect.top < bounds.bottom - LOCK_INTERSECTION_GUARD_PX;
       if (!intersectsLockBand) return false;
 
-      const current = activeIndexRef.current;
-      return current < lastIndex;
+      return true;
     };
 
     const freezeScroll = () => {
@@ -482,10 +478,19 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
       isTransitioningRef.current = true;
       setActiveIndex(next);
       activeIndexRef.current = next;
-      if (next >= lastIndex) {
-        hasCompletedLastTabRef.current = true;
-      }
       return true;
+    };
+
+    const stepOrRelease = (direction: 1 | -1): { moved: boolean; released: boolean } => {
+      const current = activeIndexRef.current;
+      if (direction > 0 && current >= lastIndex) {
+        releaseLock(1);
+        return { moved: false, released: true };
+      }
+      if (direction < 0 && current <= 0) {
+        return { moved: false, released: false };
+      }
+      return { moved: moveStep(direction), released: false };
     };
 
     const onWheel = (event: WheelEvent) => {
@@ -519,16 +524,10 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
       if (wheelAccumRef.current < WHEEL_DELTA_LOCK_THRESHOLD) return;
       wheelAccumRef.current = 0;
 
-      const atBoundary =
-        (direction > 0 && activeIndexRef.current === lastIndex) ||
-        (direction < 0 && activeIndexRef.current === 0);
-      if (atBoundary) {
-        releaseLock(direction);
+      const { moved, released } = stepOrRelease(direction);
+      if (released || !moved) {
         return;
       }
-
-      const moved = moveStep(direction);
-      if (!moved) return;
 
       wheelLockedRef.current = true;
       window.setTimeout(() => {
@@ -573,15 +572,7 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
       if (touchAccumRef.current < getTouchStepThreshold()) return;
       touchAccumRef.current = 0;
 
-      const atBoundary =
-        (direction > 0 && activeIndexRef.current === lastIndex) ||
-        (direction < 0 && activeIndexRef.current === 0);
-      if (atBoundary) {
-        releaseLock(direction);
-        return;
-      }
-
-      moveStep(direction);
+      stepOrRelease(direction);
     };
 
     const onTouchEnd = () => {
@@ -589,6 +580,49 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
       touchCurrentYRef.current = null;
       touchAccumRef.current = 0;
       touchDirRef.current = 0;
+    };
+
+    const isEditableTarget = (target: EventTarget | null) => {
+      if (!(target instanceof HTMLElement)) return false;
+      const tag = target.tagName;
+      return target.isContentEditable || tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT";
+    };
+
+    const getKeyDirection = (key: string): 1 | -1 | 0 => {
+      if (key === "ArrowDown" || key === "PageDown" || key === " " || key === "Spacebar") return 1;
+      if (key === "ArrowUp" || key === "PageUp") return -1;
+      return 0;
+    };
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (!isLockMode()) return;
+      if (isEditableTarget(event.target)) return;
+
+      const direction = getKeyDirection(event.key);
+      if (direction === 0) return;
+
+      if (!isLockedRef.current) {
+        const sameDirectionAfterRelease =
+          lastReleaseDirectionRef.current !== 0 && direction === lastReleaseDirectionRef.current;
+        if (sameDirectionAfterRelease) return;
+
+        if (shouldInitiateLock(direction)) {
+          event.preventDefault();
+          engageLock(getSectionAnchorTop());
+        }
+      }
+
+      if (!isLockedRef.current) return;
+      event.preventDefault();
+      if (wheelLockedRef.current || isTransitioningRef.current) return;
+
+      const { moved, released } = stepOrRelease(direction);
+      if (released || !moved) return;
+
+      wheelLockedRef.current = true;
+      window.setTimeout(() => {
+        wheelLockedRef.current = false;
+      }, WHEEL_STEP_COOLDOWN_MS);
     };
 
     const onScroll = () => {
@@ -613,7 +647,6 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
       const sameDirectionAfterRelease =
         lastReleaseDirectionRef.current !== 0 && direction === lastReleaseDirectionRef.current;
       if (sameDirectionAfterRelease) return;
-      if (hasCompletedLastTabRef.current) return;
 
       const current = activeIndexRef.current;
       const needsLock = current < lastIndex;
@@ -628,6 +661,7 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
     hostSection.addEventListener("touchstart", onTouchStart, { passive: true });
     hostSection.addEventListener("touchmove", onTouchMove, { passive: false });
     hostSection.addEventListener("touchend", onTouchEnd);
+    window.addEventListener("keydown", onKeyDown, { capture: true });
     window.addEventListener("scroll", onScroll, { passive: true });
 
     return () => {
@@ -636,6 +670,7 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
       hostSection.removeEventListener("touchstart", onTouchStart);
       hostSection.removeEventListener("touchmove", onTouchMove);
       hostSection.removeEventListener("touchend", onTouchEnd);
+      window.removeEventListener("keydown", onKeyDown, { capture: true });
       window.removeEventListener("scroll", onScroll);
     };
   }, [tabs.length]);
@@ -648,9 +683,6 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
     isTransitioningRef.current = true;
     setActiveIndex(clamped);
     activeIndexRef.current = clamped;
-    if (clamped >= Math.max(0, tabs.length - 1)) {
-      hasCompletedLastTabRef.current = true;
-    }
   };
 
   return (
