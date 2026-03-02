@@ -15,7 +15,6 @@ const CARD_EXPAND_DURATION_MS = 560;
 const CARD_COLLAPSE_DURATION_S = CARD_COLLAPSE_DURATION_MS / 1000;
 const CARD_EXPAND_DURATION_S = CARD_EXPAND_DURATION_MS / 1000;
 const CARD_STEP_LOCK_DURATION_MS = CARD_COLLAPSE_DURATION_MS + 40;
-const CARD_EXIT_RELEASE_DELAY_MS = 620;
 
 type CardTransitionSnapshot = {
   height: number;
@@ -126,8 +125,14 @@ export function StackedSliderSection({
   const pendingCardSnapshotsRef = useRef<Map<number, CardTransitionSnapshot>>(new Map());
   const isNotEnoughVariant = variantClassName.split(" ").includes("is-not-enough");
   const maxCollapsedCount = slides.length;
+  const lockProgressLimit = maxCollapsedCount;
+  const visibleLastIndex = Math.max(maxCollapsedCount - 1, 0);
   const isManualExpandedMode = manualExpandedIndex !== null && collapsedCount >= maxCollapsedCount;
   const activeVisibleIndex = Math.min(Math.max(collapsedCount, 0), Math.max(slides.length - 1, 0));
+  const trackShiftSteps =
+    isManualExpandedMode || collapsedCount >= maxCollapsedCount
+      ? 0
+      : Math.max(0, Math.min(collapsedCount, visibleLastIndex) - 1);
 
   const renderedSlides = useMemo(
     () =>
@@ -324,7 +329,7 @@ export function StackedSliderSection({
       if (!intersectsLockBand) return false;
 
       const current = collapsedCountRef.current;
-      return current < maxCollapsedCount || manualExpandedIndexRef.current !== null;
+      return current < lockProgressLimit || manualExpandedIndexRef.current !== null;
     };
 
     const clearReleaseTimer = () => {
@@ -417,8 +422,8 @@ export function StackedSliderSection({
         isTransitioningRef.current = true;
         setManualExpandedIndex(null);
         manualExpandedIndexRef.current = null;
-        setCollapsedCount(maxCollapsedCount);
-        collapsedCountRef.current = maxCollapsedCount;
+        setCollapsedCount(lockProgressLimit);
+        collapsedCountRef.current = lockProgressLimit;
         window.setTimeout(() => {
           isTransitioningRef.current = false;
         }, CARD_STEP_LOCK_DURATION_MS);
@@ -427,7 +432,7 @@ export function StackedSliderSection({
 
       const current = collapsedCountRef.current;
       if (direction > 0) {
-        const next = Math.min(maxCollapsedCount, current + 1);
+        const next = Math.min(lockProgressLimit, current + 1);
         if (next === current) return false;
 
         captureCardSnapshots([current]);
@@ -438,10 +443,6 @@ export function StackedSliderSection({
         window.setTimeout(() => {
           isTransitioningRef.current = false;
         }, CARD_STEP_LOCK_DURATION_MS);
-
-        if (next === maxCollapsedCount) {
-          releaseLock(1, CARD_EXIT_RELEASE_DELAY_MS);
-        }
         return true;
       }
 
@@ -470,7 +471,7 @@ export function StackedSliderSection({
         const target = event.target instanceof Node ? event.target : null;
         const isWheelInsideSection = target ? hostSection.contains(target) : false;
         const current = collapsedCountRef.current;
-        const canLockOnDown = direction > 0 && (current < maxCollapsedCount || manualExpandedIndexRef.current !== null);
+        const canLockOnDown = direction > 0 && (current < lockProgressLimit || manualExpandedIndexRef.current !== null);
         const sameDirectionAfterRelease =
           lastReleaseDirectionRef.current !== 0 && direction === lastReleaseDirectionRef.current;
         if (sameDirectionAfterRelease && !isWheelInsideSection) return;
@@ -505,7 +506,7 @@ export function StackedSliderSection({
       const current = collapsedCountRef.current;
       const hasManualExpanded = manualExpandedIndexRef.current !== null;
       const atBoundary =
-        (direction > 0 && current >= maxCollapsedCount && !hasManualExpanded) || (direction < 0 && current <= 0);
+        (direction > 0 && current >= lockProgressLimit && !hasManualExpanded) || (direction < 0 && current <= 0);
       if (atBoundary) {
         releaseLock(direction);
         return;
@@ -565,7 +566,7 @@ export function StackedSliderSection({
       const current = collapsedCountRef.current;
       const hasManualExpanded = manualExpandedIndexRef.current !== null;
       const atBoundary =
-        (direction > 0 && current >= maxCollapsedCount && !hasManualExpanded) || (direction < 0 && current <= 0);
+        (direction > 0 && current >= lockProgressLimit && !hasManualExpanded) || (direction < 0 && current <= 0);
       if (atBoundary) {
         releaseLock(direction);
         return;
@@ -601,7 +602,7 @@ export function StackedSliderSection({
       if (direction < 0) return;
 
       const current = collapsedCountRef.current;
-      const needsLock = current < maxCollapsedCount || manualExpandedIndexRef.current !== null;
+      const needsLock = current < lockProgressLimit || manualExpandedIndexRef.current !== null;
       if (!needsLock) return;
 
       if (shouldInitiateLock(direction)) {
@@ -624,7 +625,7 @@ export function StackedSliderSection({
       hostSection.removeEventListener("touchend", onTouchEnd);
       window.removeEventListener("scroll", onScroll);
     };
-  }, [captureCardSnapshots, maxCollapsedCount, sectionId, slides.length]);
+  }, [captureCardSnapshots, lockProgressLimit, maxCollapsedCount, sectionId, slides.length]);
 
   const handleCollapsedCardOpenByIndex = (index: number) => {
     const clamped = Math.max(0, Math.min(index, Math.max(slides.length - 1, 0)));
@@ -693,7 +694,14 @@ export function StackedSliderSection({
               data-slide-aria-suffix={slideAriaSuffix}
               tabIndex={0}
             >
-              <div className="slider-track">
+              <div
+                className="slider-track"
+                style={
+                  {
+                    ["--stack-shift-steps" as string]: trackShiftSteps,
+                  } as CSSProperties
+                }
+              >
                 {renderedSlides.map(({ slide, index, descriptionParts, descriptionLines }) => {
                   const isCollapsed = isManualExpandedMode ? index !== manualExpandedIndex : index < collapsedCount;
                   const isActive = isManualExpandedMode ? index === manualExpandedIndex : index === activeVisibleIndex;

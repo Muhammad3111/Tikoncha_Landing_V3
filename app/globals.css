@@ -271,6 +271,49 @@ body {
   transition: none !important;
 }
 
+[data-problem-slider] .slider-title-wrap {
+  position: relative;
+  z-index: 6;
+}
+
+[data-problem-slider] .slider-layout {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  overflow: clip;
+}
+
+[data-problem-slider] .slider-container {
+  position: relative;
+  overflow: visible;
+}
+
+#problem .slider-layout,
+#consequences .slider-layout,
+#countries .slider-layout,
+#not-enough .slider-layout {
+  overflow: hidden !important;
+  overflow: clip !important;
+}
+
+#problem .slider-container,
+#consequences .slider-container,
+#countries .slider-container,
+#not-enough .slider-container {
+  overflow: visible !important;
+}
+
+#not-enough .slider-layout {
+  padding-bottom: 170px;
+}
+
+[data-problem-slider] .slider-track {
+  --stack-shift-step-size: 84px;
+  transform: translate3d(0, calc(var(--stack-shift-steps, 0) * -1 * var(--stack-shift-step-size)), 0);
+  transition: transform 620ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
 .problem-card[data-collapsed="true"] {
   height: 64px;
   min-height: 64px;
@@ -295,6 +338,10 @@ body {
   min-height: 64px;
   max-height: 64px;
   overflow: hidden !important;
+}
+
+#not-enough .problem-card.is-not-enough-outro:not([data-collapsed="true"]) {
+  overflow: visible !important;
 }
 
 .problem-card:first-child[data-collapsed="true"] {
@@ -342,6 +389,15 @@ body {
 }
 
 @media (max-width: 743px) {
+  [data-problem-slider] .slider-track {
+    --stack-shift-step-size: 74px;
+  }
+
+  #not-enough .problem-card.is-not-enough-outro .problem-image {
+    width: 210px !important;
+    height: 315px !important;
+  }
+
   .site-footer {
     width: 100%;
     max-width: none;
@@ -443,6 +499,23 @@ body {
   .how-work-item {
     will-change: transform, opacity;
     backface-visibility: hidden;
+  }
+}
+
+@media (min-width: 744px) and (max-width: 1366px) and (any-pointer: coarse) {
+  [data-problem-slider] .slider-track {
+    --stack-shift-step-size: 74px;
+  }
+
+  #not-enough .problem-card.is-not-enough-outro .problem-image {
+    width: 240px !important;
+    height: auto !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-problem-slider] .slider-track {
+    transition: none !important;
   }
 }
 
