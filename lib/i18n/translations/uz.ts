@@ -80,8 +80,9 @@ export const uzTranslations: AppTranslations = {
                         value: "8.5 soat",
                         description:
                             "O'smirlar kuniga o'rtacha 8 soat, 39 daqiqa vaqtini ekran qarshisida (ko'ngilochar maqsadda) o'tkazmoqda. Bu to'liq ish kunidan ham ko'proq.",
-                        source: "Gallup Report 2023",
-                        sourceHref: "https://news.gallup.com/",
+                        source: "Common Sense Media (8-18 Census Report)",
+                        sourceHref:
+                            "https://www.commonsensemedia.org/sites/default/files/research/report/8-18-census-integrated-report-final-web_0.pdf",
                         imageAlt: "Yo'qotilgan bolalik statistikasi",
                         bodyHeight: 291,
                         sourceWidth: 287,
@@ -93,7 +94,8 @@ export const uzTranslations: AppTranslations = {
                         description:
                             "17 yoshli o'smirlar kuniga 4.8 soat vaqtini faqat ijtimoiy tarmoqlarda (TikTok, Instagram) o'tkazadi.",
                         source: "Gallup Report 2023",
-                        sourceHref: "https://news.gallup.com/",
+                        sourceHref:
+                            "https://news.gallup.com/poll/512576/teens-spend-average-hours-social-media-per-day.aspx",
                         imageAlt: "Ijtimoiy tarmoqdan foydalanish statistikasi",
                         bodyHeight: 252,
                         sourceWidth: 287,
@@ -105,7 +107,8 @@ export const uzTranslations: AppTranslations = {
                         description:
                             "O'quvchini telefondagi bitta bildirishnoma chalg'itgandan so'ng, diqqatini yana darsga to'liq qaytarishi uchun unga 20 daqiqa vaqt kerak bo'ladi.",
                         source: "UNESCO: Technology in Education Report",
-                        sourceHref: "https://www.unesco.org/",
+                        sourceHref:
+                            "https://www.unesco.org/gem-report/en/technology",
                         imageAlt: "Diqqat parchalanishi statistikasi",
                         bodyHeight: 279,
                         sourceWidth: 459,
@@ -117,7 +120,8 @@ export const uzTranslations: AppTranslations = {
                         description:
                             "O'smirlarning deyarli yarmi (46%) Internetda 'deyarli tinimsiz' o'tirishini tan olgan.",
                         source: "Pew Research Center",
-                        sourceHref: "https://www.pewresearch.org/",
+                        sourceHref:
+                            "https://www.pewresearch.org/internet/2022/08/10/teens-social-media-and-technology-2022/",
                         imageAlt: "Doimiy onlayn bo'lish statistikasi",
                         bodyHeight: 252,
                         sourceWidth: 302,
@@ -130,7 +134,7 @@ export const uzTranslations: AppTranslations = {
                             "Kuniga 3 soatdan ko'p vaqtini ijtimoiy tarmoqda o'tkazadigan o'smirlarda depressiya va xavotir (anxiety) xavfi uch baravar yuqori.",
                         source: "JAMA Psychiatry Study (Johns Hopkins)",
                         sourceHref:
-                            "https://jamanetwork.com/journals/jamapsychiatry",
+                            "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2749480",
                         imageAlt: "Depressiya xavfi statistikasi",
                         bodyHeight: 252,
                         sourceWidth: 447,
@@ -153,7 +157,8 @@ export const uzTranslations: AppTranslations = {
                         description:
                             "Ijtimoiy tarmoqlardan haddan tashqari ko'p foydalanish o'smirlarda yolg'izlik, tushkunlik va xavotir (anxiety) hissini kuchaytiradi.",
                         source: "American Psychological Association (APA)",
-                        sourceHref: "https://www.apa.org/",
+                        sourceHref:
+                            "https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use",
                         imageAlt: "Depressiya va xavotir oqibatlari",
                         descriptionSize: 16,
                     },
@@ -162,7 +167,8 @@ export const uzTranslations: AppTranslations = {
                         description:
                             "Ekran nuri uyqu gormonini bloklaydi. Oqibatda: surunkali charchoq, darsda uyqusirash va xotira pasayishi kuzatiladi.",
                         source: "Sleep Foundation",
-                        sourceHref: "https://www.sleepfoundation.org/",
+                        sourceHref:
+                            "https://www.sleepfoundation.org/children-and-sleep/how-blue-light-affects-kids-sleep",
                         imageAlt: "Uyqu buzilishi oqibatlari",
                         descriptionSize: 16,
                     },
@@ -171,7 +177,8 @@ export const uzTranslations: AppTranslations = {
                         description:
                             "Telefondan ajratilganda bolada xuddi giyohvandlikdagi kabi \"uzilish sindromi\" (withdrawal) - bag'irish va janjal ko'tarish holatlari yuzaga keladi.",
                         source: "Swansea University Research",
-                        sourceHref: "https://www.swansea.ac.uk/",
+                        sourceHref:
+                            "https://www.swansea.ac.uk/press-office/news-events/news/2017/05/internet-withdrawal-leads-to-increased-heart-rate-and-anxiety.php",
                         imageAlt: "Agressiya va asabiylik oqibatlari",
                         descriptionSize: 16,
                     },
@@ -180,7 +187,8 @@ export const uzTranslations: AppTranslations = {
                         description:
                             'Ijtimoiy tarmoqlardagi "mukammal" hayotlar haqiqiy hayotni yetarli emasdek his qilishga olib keladi.',
                         source: "Wall Street Journal (Facebook Files)",
-                        sourceHref: "https://www.wsj.com/",
+                        sourceHref:
+                            "https://www.wsj.com/articles/facebook-knows-instagram-is-toxic-for-teen-girls-company-documents-show-11631620739",
                         imageAlt: "O'ziga past baho berish oqibatlari",
                         descriptionSize: 16,
                     },
@@ -189,7 +197,8 @@ export const uzTranslations: AppTranslations = {
                         description:
                             "Kiberbulling va ijtimoiy izolyatsiya o'smirlar o'rtasida o'z joniga qasd qilish fikrlarini kuchaytiruvchi asosiy xavf omillaridan biridir.",
                         source: "CDC (Kasalliklarni nazorat qilish markazi)",
-                        sourceHref: "https://www.cdc.gov/",
+                        sourceHref:
+                            "https://www.cdc.gov/suicide/risk-factors/index.html",
                         imageAlt: "Suitsid xavfi oqibatlari",
                         descriptionSize: 16,
                     },
@@ -213,7 +222,8 @@ export const uzTranslations: AppTranslations = {
                             "14 yoshgacha bo'lgan bolalar uchun ijtimoiy tarmoq akkauntlarini ochishni qonunan taqiqladi. 14-15 yoshlar uchun ota-ona roziligi shart.",
                         quote: "AQShning Florida shtati eng qat'iy qonunni qabul qildi:\n14 yoshgacha ijtimoiy tarmoqqa kirish taqiqlanadi - bolalar ruhiyatini asrash.",
                         source: "AP News: Florida bans social media for minors",
-                        sourceHref: "https://apnews.com/",
+                        sourceHref:
+                            "https://apnews.com/article/florida-social-media-ban-desantis-fd07f61e167bd9109a83cd7355b5f164",
                         imageAlt:
                             "Florida shtatida yosh cheklovi illyustratsiyasi",
                         sourceInQuote: true,
@@ -227,7 +237,8 @@ export const uzTranslations: AppTranslations = {
                             "Maktab hududida (boshlang'ich va o'rta sinflarda) telefon ishlatishni to'liq taqiqladi (\"Digital pause\").",
                         quote: "Fransiyada 15 yoshgacha bo'lgan o'quvchilar maktabda telefon ishlata olmaydi.\nBu ta'lim sifatini oshirish uchun qo'llangan davlat strategiyasidir.",
                         source: "The Guardian: France school phone ban",
-                        sourceHref: "https://www.theguardian.com/",
+                        sourceHref:
+                            "https://www.theguardian.com/world/2026/jan/27/france-social-media-ban-under-15s",
                         imageAlt:
                             "Fransiyada maktablarda telefon taqiqi illyustratsiyasi",
                         sourceInQuote: true,
@@ -256,7 +267,8 @@ export const uzTranslations: AppTranslations = {
                             "Hukumat maktablarda telefonlarni taqiqlash bo'yicha yangi ko'rsatma chiqardi va \"Online Safety Act\" qonunini qabul qildi.",
                         quote: "Britaniya hukumati direktorlarga maktab kunida telefonlarni yig'ishtirib olish vakolatini berdi.\nMaqsad - sinfxonadagi tartibni tiklash.",
                         source: "BBC: UK government guidance on mobile phones in schools",
-                        sourceHref: "https://www.bbc.com/news/",
+                        sourceHref:
+                            "https://www.gov.uk/government/publications/mobile-phones-in-schools/mobile-phones-in-schools",
                         imageAlt:
                             "Buyuk Britaniyada online safety qonuni illyustratsiyasi",
                         sourceInQuote: true,
@@ -271,7 +283,7 @@ export const uzTranslations: AppTranslations = {
                         quote: "Yevropa Ittifoqi TikTok va Instagramni bolalar uchun xavfsiz qilish majburiyatini yukladi. Qoidabuzar platformalar milliardlab jarimaga tortiladi.",
                         source: "European Commission: Protection of Minors online",
                         sourceHref:
-                            "https://digital-strategy.ec.europa.eu/en/policies/protection-minors-online",
+                            "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-protection-minors",
                         imageAlt:
                             "Yevropa Ittifoqi raqamli xavfsizlik choralar illyustratsiyasi",
                         sourceInQuote: true,

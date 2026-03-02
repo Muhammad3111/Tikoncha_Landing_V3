@@ -705,6 +705,8 @@ export function StackedSliderSection({
                 {renderedSlides.map(({ slide, index, descriptionParts, descriptionLines }) => {
                   const isCollapsed = isManualExpandedMode ? index !== manualExpandedIndex : index < collapsedCount;
                   const isActive = isManualExpandedMode ? index === manualExpandedIndex : index === activeVisibleIndex;
+                  const hasSource = !slide.hideSource && !!slide.source && !!slide.sourceHref;
+                  const isWorldQuoteMobileCard = sectionId === "countries" && !!slide.quote && !!slide.sourceInQuote;
                   return (
                     <article
                       key={`${slide.title}-${index}`}
@@ -819,7 +821,7 @@ export function StackedSliderSection({
                             </div>
                           )}
 
-                          {!slide.hideSource && slide.source && slide.sourceHref && (
+                          {hasSource && (
                             <div className={`problem-source-chip ${slide.sourceInQuote ? "is-hidden" : ""}`}>
                               <span className="problem-source-label">{sourceLabel}</span>
                               <a href={slide.sourceHref} target="_blank" rel="noreferrer" className="problem-source-link">
@@ -836,6 +838,43 @@ export function StackedSliderSection({
                           )}
                         </div>
                       </div>
+
+                      {isWorldQuoteMobileCard && slide.quote && (
+                        <div className="problem-world-mobile-desc">
+                          <p className="problem-world-mobile-quote">{slide.quote}</p>
+                          {hasSource && (
+                            <div className="problem-source-chip problem-source-chip-in-quote">
+                              <span className="problem-source-label">{sourceLabel}</span>
+                              <a href={slide.sourceHref} target="_blank" rel="noreferrer" className="problem-source-link">
+                                <span>{slide.source}</span>
+                                <svg viewBox="0 0 24 24" className="problem-source-icon" aria-hidden="true">
+                                  <path
+                                    d="M14 5h5v5M10 14L19 5M19 13v4a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2v-10a2 2 0 0 1 2-2h4"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                  ></path>
+                                </svg>
+                              </a>
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      {hasSource && !isWorldQuoteMobileCard && (
+                        <div className="problem-source-chip problem-source-chip-mobile">
+                          <span className="problem-source-label">{sourceLabel}</span>
+                          <a href={slide.sourceHref} target="_blank" rel="noreferrer" className="problem-source-link">
+                            <span>{slide.source}</span>
+                            <svg viewBox="0 0 24 24" className="problem-source-icon" aria-hidden="true">
+                              <path
+                                d="M14 5h5v5M10 14L19 5M19 13v4a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2v-10a2 2 0 0 1 2-2h4"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                              ></path>
+                            </svg>
+                          </a>
+                        </div>
+                      )}
                     </article>
                   );
                 })}

@@ -547,3 +547,43 @@ body {
     object-position: center center;
   }
 }
+
+@media (max-width: 743px) {
+  #countries .problem-source-chip-mobile {
+    position: absolute;
+    left: 50%;
+    right: auto;
+    bottom: 22px;
+    transform: translateX(-50%);
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 306px;
+    height: 36px;
+    min-height: 36px;
+    padding: 0 16px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    z-index: 6;
+  }
+
+  #countries .problem-source-label,
+  #countries .problem-source-link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  #countries .problem-source-link span {
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #countries .problem-source-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
