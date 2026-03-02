@@ -4,7 +4,7 @@ export const enTranslations: AppTranslations = {
   "layout": {
     "siteName": "Tikoncha",
     "defaultTitle": "Tikoncha",
-    "defaultDescription": "Parental control app for screen-time limits, app blocking, and focus mode.",
+    "defaultDescription": "Tikoncha is a parental control app for parents and educators: screen-time limits, app blocking schedules, focus mode, and clear usage analytics for children.",
     "nav": {
       "issue": "Problem",
       "consequences": "Consequences",
@@ -47,7 +47,7 @@ export const enTranslations: AppTranslations = {
   "home": {
     "meta": {
       "title": "Tikoncha - Parental Control and Focus App",
-      "description": "Limit screen time, block social apps and games on schedule, and keep focus during study. Tikoncha also includes ChatGPT and Telegram personal chats.",
+      "description": "Tikoncha is a smart parental control app for parents and educators. Set screen-time limits, schedule app blocking, enable focus mode, and track a child's digital habits with clear analytics.",
       "keywords": "parental control app, parental control, parental control on phone, child phone monitoring, parental control for kids, screen time control, limit phone time, app blocker, game blocker, social media blocker, block instagram, block youtube, limit telegram, block phone during study, focus mode app, digital addiction help, digital detox app, safe internet for kids, Bilimdon AI, Tikoncha app, Tikoncha Student, Tikoncha Parent, CIS parental control app, parental control in CIS, parental control app Uzbekistan, parental control app Kazakhstan, parental control app Kyrgyzstan, parental control app Tajikistan, parental control app Russia, parental control app Belarus, parental control app Azerbaijan, parental control app Armenia, parental control app Tashkent, parental control app Almaty, parental control app Moscow, parental control app Minsk, parental control app Bishkek"
     },
     "hero": {

@@ -5,7 +5,7 @@ export const uzTranslations: AppTranslations = {
         siteName: "Tikoncha",
         defaultTitle: "Tikoncha",
         defaultDescription:
-            "Farzandingiz uchun ekran vaqti nazorati, ilova bloklash va fokus rejimi ilovasi.",
+            "Tikoncha - ota-onalar va oqituvchilar uchun bolalar telefonidan xavfsiz foydalanishni boshqaruvchi ilova: ekran vaqti limiti, ilova bloklash, fokus rejimi va nazorat statistikasi.",
         nav: {
             issue: "Muammo",
             consequences: "Oqibatlar",
@@ -50,7 +50,7 @@ export const uzTranslations: AppTranslations = {
         meta: {
             title: "Tikoncha - Ota-ona nazorati va fokus ilovasi",
             description:
-                "Ekran vaqtini cheklang, ijtimoiy tarmoqlar va o'yinlarni jadval bo'yicha bloklang. Tikoncha ichida ChatGPT va Telegram personal chat ham bor.",
+                "Tikoncha - ota-onalar va oqituvchilar uchun mos aqlli nazorat ilovasi. Ilova ekran vaqti limitini boshqaradi, ilovalarni jadval boyicha bloklaydi, fokus rejimini yoqadi va bolaning raqamli odatlari boyicha aniq statistika beradi.",
             keywords:
                 "ota ona nazorati ilovasi, ota ona nazorati, telefonda ota ona nazorati, bola telefonini nazorat qilish, bolalar uchun ota ona nazorati, ekran vaqti nazorati, telefon vaqtini cheklash, ilovani bloklash, o'yinlarni bloklash, ijtimoiy tarmoqlarni bloklash, instagramni bloklash, youtube ni bloklash, telegramni cheklash, dars paytida telefonni bloklash, fokus rejimi ilovasi, raqamli qaramlikdan chiqish, raqamli detoks, bolalar uchun xavfsiz internet, bilimdon ai, tikoncha ilovasi, tikoncha student, tikoncha parent, toshkent ota ona nazorati ilovasi, samarqand ota ona nazorati ilovasi, andijon ota ona nazorati ilovasi, fargona ota ona nazorati ilovasi, ozbekistonda ota ona nazorati, qozogistonda ota ona nazorati, qirgizistonda ota ona nazorati, tojikistonda ota ona nazorati, rossiyada ota ona nazorati, belarusda ota ona nazorati, ozarbayjonda ota ona nazorati, armanistonda ota ona nazorati, mdh uchun ota ona nazorati",
         },

@@ -280,6 +280,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
 
   return (
     <header
+      data-nosnippet
       ref={headerRef}
       data-site-header
       data-home-path={homePath}

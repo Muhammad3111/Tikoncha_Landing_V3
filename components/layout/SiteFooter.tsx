@@ -20,7 +20,7 @@ export function SiteFooter({ lang, t }: Props) {
   const emailLink = `mailto:${t.layout.footer.email}`;
 
   return (
-    <footer className="site-footer text-white">
+    <footer className="site-footer text-white" data-nosnippet>
       <div className="site-footer__inner mx-auto w-full max-w-[1360px] px-5 lg:px-6">
         <div className="site-footer__top">
           <div className="site-footer__brand">
