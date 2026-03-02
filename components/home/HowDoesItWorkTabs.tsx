@@ -61,7 +61,6 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
   const layoutRef = useRef<HTMLDivElement | null>(null);
   const transitionTimelineRef = useRef<gsap.core.Timeline | null>(null);
   const hasCompletedLastTabRef = useRef(false);
-  const preloadedGifUrlsRef = useRef<Set<string>>(new Set());
 
   useEffect(() => {
     activeIndexRef.current = activeIndex;
@@ -69,16 +68,6 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
       hasCompletedLastTabRef.current = true;
     }
   }, [activeIndex, tabs.length]);
-
-  useEffect(() => {
-    for (const tab of tabs) {
-      if (preloadedGifUrlsRef.current.has(tab.gifUrl)) continue;
-      preloadedGifUrlsRef.current.add(tab.gifUrl);
-      const image = new window.Image();
-      image.decoding = "async";
-      image.src = tab.gifUrl;
-    }
-  }, [tabs]);
 
   useLayoutEffect(() => {
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -711,11 +700,11 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
                       ref={(node) => {
                         gifsRef.current[index] = node;
                       }}
-                      src={tab.gifUrl}
+                      src={Math.abs(index - activeIndex) <= 1 ? tab.gifUrl : undefined}
                       alt={tab.gifAlt}
-                      loading="eager"
+                      loading={index === activeIndex ? "eager" : "lazy"}
                       decoding="async"
-                      fetchPriority={index === activeIndex ? "high" : "auto"}
+                      fetchPriority={index === activeIndex ? "high" : "low"}
                       className={`how-work-gif ${index === activeIndex ? "is-active" : ""}`}
                       data-how-gif
                     />

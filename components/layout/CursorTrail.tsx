@@ -208,9 +208,11 @@ export function CursorTrail() {
       }
 
       clampTrailLength(getDynamicTrailLength());
+      requestRender();
     };
 
     const render = (time: number): void => {
+      frameId = 0;
       const idleMs = time - lastMoveTime;
       const isMoving = idleMs < IDLE_THRESHOLD_MS;
       const width = window.innerWidth;
@@ -238,11 +240,24 @@ export function CursorTrail() {
         }
       }
 
+      const shouldContinueAnimating = pointerVisible || points.length > 1 || smoothedSpeed >= 0.0015;
+      if (!shouldContinueAnimating) {
+        points.length = 0;
+        smoothedSpeed = 0;
+        return;
+      }
+
+      requestRender();
+    };
+
+    const requestRender = () => {
+      if (frameId !== 0) return;
       frameId = window.requestAnimationFrame(render);
     };
 
     const onResize = () => {
       resizeCanvas();
+      requestRender();
     };
 
     const onPointerDown = (event: PointerEvent) => {
@@ -252,6 +267,8 @@ export function CursorTrail() {
     const onPointerLeave = () => {
       pointerVisible = false;
       points.length = 0;
+      smoothedSpeed = 0;
+      requestRender();
     };
 
     resizeCanvas();
@@ -261,11 +278,10 @@ export function CursorTrail() {
     window.addEventListener("pointerdown", onPointerDown, { passive: true });
     window.addEventListener("pointerleave", onPointerLeave, { passive: true });
 
-    frameId = window.requestAnimationFrame(render);
-
     return () => {
       if (frameId) {
         window.cancelAnimationFrame(frameId);
+        frameId = 0;
       }
       window.removeEventListener("resize", onResize);
       window.removeEventListener("pointermove", onPointerMove);

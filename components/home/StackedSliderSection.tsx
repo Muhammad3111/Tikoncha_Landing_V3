@@ -739,12 +739,33 @@ export function StackedSliderSection({
                       <div aria-hidden="true" className="problem-math"></div>
                       <div aria-hidden="true" className="problem-effect"></div>
 
-                      <img src={slide.imageUrl} alt={slide.imageAlt} className="problem-image slider-card-image" />
+                      <img
+                        src={slide.imageUrl}
+                        alt={slide.imageAlt}
+                        className="problem-image slider-card-image"
+                        loading="lazy"
+                        decoding="async"
+                        fetchPriority="low"
+                      />
                       {slide.leftImageUrl && (
-                        <img src={slide.leftImageUrl} alt={slide.leftImageAlt ?? ""} className="problem-side-image is-left" />
+                        <img
+                          src={slide.leftImageUrl}
+                          alt={slide.leftImageAlt ?? ""}
+                          className="problem-side-image is-left"
+                          loading="lazy"
+                          decoding="async"
+                          fetchPriority="low"
+                        />
                       )}
                       {slide.rightImageUrl && (
-                        <img src={slide.rightImageUrl} alt={slide.rightImageAlt ?? ""} className="problem-side-image is-right" />
+                        <img
+                          src={slide.rightImageUrl}
+                          alt={slide.rightImageAlt ?? ""}
+                          className="problem-side-image is-right"
+                          loading="lazy"
+                          decoding="async"
+                          fetchPriority="low"
+                        />
                       )}
 
                       <div className="problem-body slider-card-body">
