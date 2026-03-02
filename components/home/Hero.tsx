@@ -13,6 +13,9 @@ type Props = {
 
 export function Hero({ lang, t, sectionId = "hero" }: Props) {
   const rootRef = useRef<HTMLElement | null>(null);
+  const heroTitleWords = t.home.hero.title.trim().split(/\s+/);
+  const mobileHeroTitleFirstLine = heroTitleWords[0] ?? t.home.hero.title;
+  const mobileHeroTitleSecondLine = heroTitleWords.slice(1).join(" ");
 
   useEffect(() => {
     const heroRoot = rootRef.current;
@@ -113,7 +116,15 @@ export function Hero({ lang, t, sectionId = "hero" }: Props) {
                 className="hero-title max-w-[662px] text-[44px] font-bold leading-[1.05] text-white md:text-[62px]"
                 data-hero-title
               >
-                <span>{t.home.hero.title}</span>
+                {lang === "uz" ? (
+                  <>
+                    <span className="block md:hidden">{mobileHeroTitleFirstLine}</span>
+                    <span className="block md:hidden">{mobileHeroTitleSecondLine}</span>
+                    <span className="hidden md:inline">{t.home.hero.title}</span>
+                  </>
+                ) : (
+                  <span>{t.home.hero.title}</span>
+                )}
                 <span className="block text-secondary">{t.home.hero.titleAccent}</span>
               </h1>
               <p className="hero-subtitle max-w-[594px] text-lg leading-[1.8] text-white/90 md:text-[20px]" data-hero-subtitle>
