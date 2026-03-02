@@ -251,6 +251,33 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
     });
   };
 
+  const handleLogoClick = (event: ReactMouseEvent<HTMLAnchorElement>) => {
+    setMenuOpen(false);
+    closeLanguageSwitcher();
+
+    if (
+      event.defaultPrevented ||
+      event.button !== 0 ||
+      event.metaKey ||
+      event.ctrlKey ||
+      event.shiftKey ||
+      event.altKey
+    ) {
+      return;
+    }
+
+    const currentPath = normalizePath(pathname || window.location.pathname);
+    const normalizedHomePath = normalizePath(homePath);
+    if (currentPath !== normalizedHomePath) {
+      return;
+    }
+
+    event.preventDefault();
+    window.history.replaceState(null, "", homePath);
+    window.scrollTo({ top: 0, behavior: "auto" });
+    setActiveNavKey(null);
+  };
+
   return (
     <header
       ref={headerRef}
@@ -261,7 +288,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
       className={`sticky top-0 z-40 text-mist transition-colors duration-200${stuck ? " is-stuck" : ""}`}
     >
       <div className="site-header-bar mx-auto flex h-[72px] w-full max-w-[1360px] items-center justify-between px-5 lg:px-6">
-        <Link href={homePath} className="inline-flex items-center">
+        <Link href={homePath} className="inline-flex items-center" onClick={handleLogoClick}>
           <img
             src={siteData.images.logo}
             alt={t.layout.siteName}

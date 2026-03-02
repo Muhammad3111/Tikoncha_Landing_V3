@@ -4898,15 +4898,13 @@ body::-webkit-scrollbar {
     }
 
     .team-section__grid {
-      display: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
     }
 
     .team-section__rails {
-      margin-top: 32px;
-      display: grid;
-      gap: 8px;
-      overflow: hidden;
-      height: 392px;
+      display: none;
     }
 
     .team-section__rail {
@@ -4952,4 +4950,3 @@ body::-webkit-scrollbar {
       min-height: 188px;
     }
   }
-
