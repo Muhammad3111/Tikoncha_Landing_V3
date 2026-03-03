@@ -52,7 +52,12 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
         label: t.layout.nav.leadingCountries,
         sectionId: "countries",
       },
-      { key: "about" as const, href: `${homePathWithSlash}#about`, label: t.layout.nav.about, sectionId: "about" },
+      {
+        key: "about" as const,
+        href: `${homePathWithSlash}#how-does-it-work`,
+        label: t.layout.nav.about,
+        sectionId: "how-does-it-work",
+      },
       { key: "team" as const, href: teamPath, label: t.layout.nav.team, sectionId: undefined },
     ],
     [homePathWithSlash, teamPath, t.layout.nav.about, t.layout.nav.consequences, t.layout.nav.issue, t.layout.nav.leadingCountries, t.layout.nav.team],

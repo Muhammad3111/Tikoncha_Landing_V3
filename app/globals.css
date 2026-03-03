@@ -604,3 +604,58 @@ body {
     width: 100%;
   }
 }
+
+.site-footer__location-text {
+  min-width: 0;
+}
+
+.site-footer__location-text.has-parts .site-footer__location-line {
+  display: inline;
+}
+
+@media (max-width: 743px) {
+  .site-footer__location-text {
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1.25;
+  }
+
+  .site-footer__location-text.has-parts .site-footer__location-line {
+    display: block;
+  }
+
+  #problem .problem-body,
+  #consequences .problem-body,
+  #countries .problem-body {
+    left: 24px !important;
+    right: 24px !important;
+    width: auto !important;
+    box-sizing: border-box;
+  }
+
+  #problem .problem-card:nth-child(2) .problem-body,
+  #problem .problem-card:nth-child(3) .problem-body,
+  #problem .problem-card:nth-child(4) .problem-body,
+  #problem .problem-card:nth-child(5) .problem-body {
+    left: 24px !important;
+    right: 24px !important;
+    width: auto !important;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 700px) and (orientation: landscape) and (any-pointer: coarse) {
+  .how-work-section {
+    min-height: 1020px !important;
+    height: 1020px !important;
+    overflow: hidden;
+  }
+
+  .how-work-root {
+    min-height: 1020px !important;
+  }
+
+  .how-work-card {
+    min-height: 1020px !important;
+    height: 1020px !important;
+  }
+}

@@ -18,6 +18,11 @@ export function SiteFooter({ lang, t }: Props) {
   const aboutPath = `${homePath}#about`;
   const phoneLink = `tel:${t.layout.footer.phone.replace(/\s+/g, "")}`;
   const emailLink = `mailto:${t.layout.footer.email}`;
+  const locationParts = t.layout.footer.location
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
+  const hasLocationParts = locationParts.length > 1;
 
   return (
     <footer className="site-footer text-white" data-nosnippet>
@@ -91,7 +96,16 @@ export function SiteFooter({ lang, t }: Props) {
             <ul className="site-footer__list site-footer__list--contact">
               <li className="site-footer__contact-item">
                 <img src={siteData.images.footer.locationIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
-                <span>{t.layout.footer.location}</span>
+                <span className={`site-footer__location-text${hasLocationParts ? " has-parts" : ""}`}>
+                  {hasLocationParts ? (
+                    <>
+                      <span className="site-footer__location-line">{`${locationParts[0]},`}</span>
+                      <span className="site-footer__location-line">{locationParts.slice(1).join(", ")}</span>
+                    </>
+                  ) : (
+                    t.layout.footer.location
+                  )}
+                </span>
               </li>
               <li className="site-footer__contact-item">
                 <img src={siteData.images.footer.callIcon} alt="" width="24" height="24" loading="lazy" decoding="async" />
