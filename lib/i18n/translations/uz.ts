@@ -43,7 +43,8 @@ export const uzTranslations: AppTranslations = {
             closeMenu: "Menyuni yopish",
             closeVideo: "Videoni yopish",
             socialLinks: "Ijtimoiy tarmoqlar",
-            videoFallback: "Brauzeringiz video ijro etishni qo'llab-quvvatlamaydi.",
+            videoFallback:
+                "Brauzeringiz video ijro etishni qo'llab-quvvatlamaydi.",
             heroImageAlt: "Tikoncha ilovasi rasmi",
         },
     },
@@ -56,7 +57,7 @@ export const uzTranslations: AppTranslations = {
                 "ota ona nazorati ilovasi, ota ona nazorati, telefonda ota ona nazorati, bola telefonini nazorat qilish, bolalar uchun ota ona nazorati, ekran vaqti nazorati, telefon vaqtini cheklash, ilovani bloklash, o'yinlarni bloklash, ijtimoiy tarmoqlarni bloklash, instagramni bloklash, youtube ni bloklash, telegramni cheklash, dars paytida telefonni bloklash, fokus rejimi ilovasi, raqamli qaramlikdan chiqish, raqamli detoks, bolalar uchun xavfsiz internet, bilimdon ai, tikoncha ilovasi, tikoncha student, tikoncha parent, toshkent ota ona nazorati ilovasi, samarqand ota ona nazorati ilovasi, andijon ota ona nazorati ilovasi, fargona ota ona nazorati ilovasi, ozbekistonda ota ona nazorati, qozogistonda ota ona nazorati, qirgizistonda ota ona nazorati, tojikistonda ota ona nazorati, rossiyada ota ona nazorati, belarusda ota ona nazorati, ozarbayjonda ota ona nazorati, armanistonda ota ona nazorati, mdh uchun ota ona nazorati",
         },
         hero: {
-            title: "Tikoncha ta‘qiq emas,",
+            title: "Tikoncha taqiq emas,",
             titleAccent: "to‘g‘ri nazorat",
             subtitle:
                 "Farzandingiz texnologiyadan to‘g‘ri foydalanishni o'rganadi, telefon esa farzandingizni boshqara olmaydi",
