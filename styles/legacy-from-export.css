@@ -4790,7 +4790,7 @@ body::-webkit-scrollbar {
     list-style: none;
     display: grid;
     gap: 12px;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .team-section__rails {
@@ -4872,7 +4872,7 @@ body::-webkit-scrollbar {
     }
 
     .team-section__grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
 

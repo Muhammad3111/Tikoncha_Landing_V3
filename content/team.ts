@@ -113,8 +113,8 @@ export const teamMembers: TeamMemberProfile[] = [
         slug: "jamshid-murtazoyev",
         name: "Jamshid Murtazoyev",
         role: {
-            uz: "QA Engineer",
-            ru: "QA Engineer",
+            uz: "QA muhandisi",
+            ru: "QA инженер",
             en: "QA Engineer",
         },
         project: {
@@ -125,42 +125,12 @@ export const teamMembers: TeamMemberProfile[] = [
         imageKey: "member-05",
     },
     {
-        slug: "diyorbek-aliyev",
-        name: "Diyorbek Aliyev",
-        role: {
-            uz: "QA Engineer",
-            ru: "QA Engineer",
-            en: "QA Engineer",
-        },
-        project: {
-            uz: "Tikoncha sifat nazorati",
-            ru: "Контроль качества Tikoncha",
-            en: "Tikoncha quality assurance",
-        },
-        imageKey: "member-10",
-    },
-    {
-        slug: "abrorbek-ibroximov",
-        name: "Abrorbek Ibroximov",
-        role: {
-            uz: "Senior UI/UX Dizayner",
-            ru: "Senior UI/UX дизайнер",
-            en: "Senior UI/UX Designer",
-        },
-        project: {
-            uz: "Tikoncha UX tizimi",
-            ru: "UX-система Tikoncha",
-            en: "Tikoncha UX system",
-        },
-        imageKey: "member-06",
-    },
-    {
         slug: "ali-umirov",
         name: "Ali Umirov",
         role: {
-            uz: "UI/UX Dizayner",
-            ru: "UI/UX дизайнер",
-            en: "UI/UX Designer",
+            uz: "Mahsulot dizayneri",
+            ru: "Продуктовый дизайнер",
+            en: "Product Designer",
         },
         project: {
             uz: "Tikoncha mobil UI dizayni",
