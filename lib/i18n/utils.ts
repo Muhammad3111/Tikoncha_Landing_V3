@@ -22,9 +22,5 @@ export function getTranslations(lang: Lang): AppTranslations {
 export function localizedPath(lang: Lang, path: string = "/"): string {
   const normalizedPath = path === "/" ? "" : trimSlashes(path);
 
-  if (lang === DEFAULT_LANG) {
-    return normalizedPath ? `/${normalizedPath}` : "/";
-  }
-
   return normalizedPath ? `/${lang}/${normalizedPath}` : `/${lang}`;
 }

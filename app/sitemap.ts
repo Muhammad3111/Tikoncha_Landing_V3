@@ -2,20 +2,26 @@ import type { MetadataRoute } from "next";
 import { LANGUAGES, type Lang } from "@/lib/i18n/config";
 import { localizedPath } from "@/lib/i18n/utils";
 import { siteData } from "@/lib/site-data";
+import { getAllBlogSlugs } from "@/content/blog";
 
 export const dynamic = "force-static";
 
-const INDEXABLE_ROUTES = ["/", "/team", "/privacy-policy", "/terms"] as const;
+const INDEXABLE_ROUTES = ["/", "/team", "/privacy-policy", "/terms", "/blog"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
+  const blogRoutes = getAllBlogSlugs().map((slug) => `/blog/${slug}`);
 
   return LANGUAGES.flatMap((lang) =>
-    INDEXABLE_ROUTES.map((route) => ({
-      url: `${siteData.siteUrl}${localizedPath(lang as Lang, route)}`,
-      lastModified: now,
-      changeFrequency: route === "/" ? "weekly" : "monthly",
-      priority: route === "/" ? 1 : 0.7,
-    })),
+    [...INDEXABLE_ROUTES, ...blogRoutes].map((route) => {
+      const isHome = route === "/";
+      const isBlogPost = route.startsWith("/blog/");
+      return {
+        url: `${siteData.siteUrl}${localizedPath(lang as Lang, route)}`,
+        lastModified: now,
+        changeFrequency: isHome ? "weekly" : isBlogPost ? "monthly" : "yearly",
+        priority: isHome ? 1 : isBlogPost ? 0.8 : 0.7,
+      };
+    }),
   );
 }

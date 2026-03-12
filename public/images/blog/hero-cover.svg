@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="30" x2="1510" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142919"/>
+      <stop offset="0.48" stop-color="#222422"/>
+      <stop offset="1" stop-color="#1A3320"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="260" y1="120" x2="1320" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDB022" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#4BB462" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="blurGlow" x="0" y="0" width="1600" height="980" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <g opacity="0.55" filter="url(#blurGlow)">
+    <circle cx="270" cy="790" r="180" fill="#FDB022"/>
+    <circle cx="1360" cy="180" r="200" fill="#4BB462"/>
+  </g>
+  <rect x="74" y="72" width="1452" height="836" rx="48" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.14)"/>
+  <path d="M220 700C400 510 610 540 800 440C1010 330 1160 220 1380 290" stroke="url(#accent)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M210 760C430 600 610 630 820 530C1030 430 1190 340 1390 420" stroke="rgba(255,255,255,0.22)" stroke-width="6" stroke-linecap="round"/>
+  <rect x="170" y="174" width="556" height="268" rx="28" fill="rgba(0,0,0,0.24)" stroke="rgba(255,255,255,0.14)"/>
+  <text x="212" y="270" fill="white" font-size="56" font-family="Golos Text, Arial, sans-serif" font-weight="600">TIKONCHA BLOG</text>
+  <text x="212" y="334" fill="rgba(255,255,255,0.82)" font-size="32" font-family="Golos Text, Arial, sans-serif">
+    Ota-ona nazorati, fokus va raqamli odatlar
+  </text>
+  <text x="212" y="390" fill="rgba(255,255,255,0.68)" font-size="26" font-family="Golos Text, Arial, sans-serif">
+    8 ta amaliy maqola va real yechimlar
+  </text>
+</svg>

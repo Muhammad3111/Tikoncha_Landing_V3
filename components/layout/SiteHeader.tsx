@@ -13,7 +13,7 @@ type Props = {
   t: AppTranslations;
 };
 
-type NavKey = "issue" | "consequences" | "leadingCountries" | "about" | "team";
+type NavKey = "issue" | "consequences" | "leadingCountries" | "about" | "blog" | "team";
 
 const TABLET_MEDIA_QUERY =
   "(max-width: 743px), (min-width: 744px) and (max-width: 1366px) and (any-pointer: coarse)";
@@ -34,6 +34,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
 
   const homePath = localizedPath(lang);
   const homePathWithSlash = homePath.endsWith("/") ? homePath : `${homePath}/`;
+  const blogPath = localizedPath(lang, "/blog");
   const teamPath = localizedPath(lang, "/team");
   const phoneLink = `tel:${t.layout.footer.phone.replace(/\s+/g, "")}`;
 
@@ -58,9 +59,20 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
         label: t.layout.nav.about,
         sectionId: "how-does-it-work",
       },
+      { key: "blog" as const, href: blogPath, label: t.layout.nav.blog, sectionId: undefined },
       { key: "team" as const, href: teamPath, label: t.layout.nav.team, sectionId: undefined },
     ],
-    [homePathWithSlash, teamPath, t.layout.nav.about, t.layout.nav.consequences, t.layout.nav.issue, t.layout.nav.leadingCountries, t.layout.nav.team],
+    [
+      blogPath,
+      homePathWithSlash,
+      teamPath,
+      t.layout.nav.about,
+      t.layout.nav.blog,
+      t.layout.nav.consequences,
+      t.layout.nav.issue,
+      t.layout.nav.leadingCountries,
+      t.layout.nav.team,
+    ],
   );
 
   const closeLanguageSwitcher = () => {
@@ -162,10 +174,16 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
     const syncActiveLink = () => {
       const currentPath = normalizePath(pathname || window.location.pathname);
       const normalizedHomePath = normalizePath(homePath);
+      const normalizedBlogPath = normalizePath(blogPath);
       const normalizedTeamPath = normalizePath(teamPath);
 
       if (currentPath === normalizedTeamPath) {
         setActiveNavKey("team");
+        return;
+      }
+
+      if (currentPath === normalizedBlogPath || currentPath.startsWith(`${normalizedBlogPath}/`)) {
+        setActiveNavKey("blog");
         return;
       }
 
@@ -199,7 +217,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
       window.removeEventListener("hashchange", syncActiveLink);
       window.removeEventListener("popstate", syncActiveLink);
     };
-  }, [homePath, navItems, pathname, teamPath]);
+  }, [blogPath, homePath, navItems, pathname, teamPath]);
 
   const toggleMenu = () => {
     setMenuOpen((value) => !value);
@@ -289,6 +307,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
       ref={headerRef}
       data-site-header
       data-home-path={homePath}
+      data-blog-path={blogPath}
       data-team-path={teamPath}
       data-menu-open={menuOpen ? "true" : "false"}
       className={`sticky top-0 z-40 text-mist transition-colors duration-200${stuck ? " is-stuck" : ""}`}
@@ -320,7 +339,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
                   data-nav-key={item.key}
                   data-section-id={item.sectionId}
                   aria-current={
-                    isActive ? (item.key === "team" ? "page" : "location") : undefined
+                    isActive ? (item.sectionId ? "location" : "page") : undefined
                   }
                   onClick={(event) => handleNavClick(event, item)}
                 >
@@ -405,7 +424,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
                   data-nav-key={item.key}
                   data-section-id={item.sectionId}
                   aria-current={
-                    isActive ? (item.key === "team" ? "page" : "location") : undefined
+                    isActive ? (item.sectionId ? "location" : "page") : undefined
                   }
                   onClick={(event) => handleNavClick(event, item)}
                 >

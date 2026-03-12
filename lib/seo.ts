@@ -3,7 +3,7 @@ import { siteData } from "@/lib/site-data";
 import type { Lang } from "@/lib/i18n/config";
 import { localizedPath } from "@/lib/i18n/utils";
 
-type MetaPage = "home" | "team" | "terms" | "privacyPolicy";
+type MetaPage = "home" | "team" | "blog" | "terms" | "privacyPolicy";
 
 type MetaSource = {
   title: string;
@@ -24,6 +24,7 @@ const getMetaSource = (lang: Lang, page: MetaPage): MetaSource => {
 
   if (page === "home") return data.homeMeta;
   if (page === "team") return data.teamMeta;
+  if (page === "blog") return siteData.translations[lang].blog.meta;
 
   return data.privacyMeta;
 };

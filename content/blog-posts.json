@@ -1,0 +1,1397 @@
+[
+  {
+    "slug": "doomscrolling-nima-va-qanday-toxtatish",
+    "categoryKey": "digital-habits",
+    "title": {
+      "uz": "Cheksiz salbiy lentani aylantirish odati nima va uni qanday to'xtatish mumkin?",
+      "ru": "Что такое думскроллинг и как его остановить?",
+      "en": "What is doomscrolling and how can you stop it?"
+    },
+    "excerpt": {
+      "uz": "Cheksiz lentani aylantirish odati vaqt, diqqat va ruhiy holatga qanday ta'sir qilishini tushuntiramiz.",
+      "ru": "Объясняем, как привычка бесконечно листать ленту влияет на время, внимание и эмоциональное состояние.",
+      "en": "We explain how endless feed scrolling affects time, attention, and emotional well-being."
+    },
+    "coverImageUrl": "/images/blog/post-01.png",
+    "coverImageAlt": {
+      "uz": "Telefon ekranidagi cheksiz lenta illyustratsiyasi",
+      "ru": "Иллюстрация бесконечной ленты на экране телефона",
+      "en": "Illustration of an endless feed on a phone screen"
+    },
+    "publishedAt": "2026-03-02",
+    "readMinutes": 6,
+    "sections": {
+      "uz": [
+        {
+          "heading": "Doomscrolling aslida nima?",
+          "paragraphs": [
+            "Doomscrolling - bu foydali maqsadsiz, ketma-ket salbiy yoki hissiy kontentlarni uzoq vaqt davomida skroll qilish odati.",
+            "Ko'pchilik buni dam olish deb o'ylaydi, ammo amalda miyaning charchashi va ichki xavotir kuchayadi.",
+            "Cheksiz salbiy lentani aylantirish odati nima va uni qanday to'xtatish mumkin? mavzusida \"Doomscrolling aslida nima?\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Nega bu odat shakllanadi?",
+          "paragraphs": [
+            "Algoritmlar e'tiborni ushlab turish uchun aynan hissiy reaktsiya uyg'otadigan kontentni ko'proq ko'rsatadi.",
+            "Natijada foydalanuvchi 'yana bir post' deb kiradi va vaqt nazoratsiz o'tib ketadi.",
+            "Cheksiz salbiy lentani aylantirish odati nima va uni qanday to'xtatish mumkin? mavzusida \"Nega bu odat shakllanadi?\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "To'xtatish uchun 3 amaliy qadam",
+          "paragraphs": [
+            "1) Skroll limiti qo'ying: ijtimoiy ilovalar uchun kunlik aniq daqiqa belgilang.",
+            "2) Triggerlarni o'chiring: push-bildirishnomalarni minimallashtiring.",
+            "3) O'rnini bosing: skroll o'rniga 5 daqiqalik foydali odat tanlang (yurish, suv ichish, nafas mashqi).",
+            "Cheksiz salbiy lentani aylantirish odati nima va uni qanday to'xtatish mumkin? mavzusida \"To'xtatish uchun 3 amaliy qadam\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        }
+      ],
+      "ru": [
+        {
+          "heading": "Что такое думскроллинг на практике?",
+          "paragraphs": [
+            "Думскроллинг — это привычка долго прокручивать подряд негативный или эмоциональный контент без практической цели.",
+            "Многие воспринимают это как отдых, но на деле усиливаются усталость мозга и внутренняя тревожность.",
+            "В материале «Что такое думскроллинг и как его остановить?» блок «Что такое думскроллинг на практике?» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Почему формируется эта привычка?",
+          "paragraphs": [
+            "Алгоритмы удерживают внимание, чаще показывая контент, который вызывает сильную эмоциональную реакцию.",
+            "В итоге пользователь заходит «еще на один пост», а время уходит без контроля.",
+            "В материале «Что такое думскроллинг и как его остановить?» блок «Почему формируется эта привычка?» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "3 практических шага, чтобы остановиться",
+          "paragraphs": [
+            "1) Поставьте лимит скролла: задайте четкое ежедневное время для соцсетей.",
+            "2) Уберите триггеры: максимально отключите push-уведомления.",
+            "3) Замените привычку: вместо скролла выберите 5-минутное полезное действие (прогулка, вода, дыхание).",
+            "В материале «Что такое думскроллинг и как его остановить?» блок «3 практических шага, чтобы остановиться» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "What is doomscrolling in practice?",
+          "paragraphs": [
+            "Doomscrolling is the habit of spending long periods scrolling through negative or emotional content without a useful goal.",
+            "People often call it relaxation, but in reality it increases mental fatigue and background anxiety.",
+            "In “What is doomscrolling and how can you stop it?”, the “What is doomscrolling in practice?” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Why does this habit form?",
+          "paragraphs": [
+            "Algorithms are designed to keep attention, so they show more content that triggers emotional reactions.",
+            "As a result, users open “just one more post” and lose track of time.",
+            "In “What is doomscrolling and how can you stop it?”, the “Why does this habit form?” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "3 practical steps to stop",
+          "paragraphs": [
+            "1) Set a scroll limit: define a strict daily time budget for social apps.",
+            "2) Remove triggers: minimize push notifications.",
+            "3) Replace the habit: swap scrolling for a 5-minute useful action (walk, water, breathing exercise).",
+            "In “What is doomscrolling and how can you stop it?”, the “3 practical steps to stop” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "farzand-uchun-soglom-screen-time-qoidalari",
+    "categoryKey": "screen-time",
+    "title": {
+      "uz": "Farzand uchun sog'lom ekran vaqti qoidalari",
+      "ru": "Правила здорового экранного времени для ребенка",
+      "en": "Healthy screen-time rules for your child"
+    },
+    "excerpt": {
+      "uz": "Qattiq taqiqsiz, amaliy va barqaror ekran vaqti qoidalarini qanday joriy qilish mumkin?",
+      "ru": "Как внедрить практичные и стабильные правила экранного времени без жестких запретов?",
+      "en": "How can you introduce practical, consistent screen-time rules without strict bans?"
+    },
+    "coverImageUrl": "/images/blog/post-02.png",
+    "coverImageAlt": {
+      "uz": "Screen-time jadvali illyustratsiyasi",
+      "ru": "Иллюстрация расписания экранного времени",
+      "en": "Illustration of a screen-time schedule"
+    },
+    "publishedAt": "2026-02-26",
+    "readMinutes": 7,
+    "sections": {
+      "uz": [
+        {
+          "heading": "Qoidalar aniq va o'lchanadigan bo'lsin",
+          "paragraphs": [
+            "Umumiy gaplar o'rniga aniq chegaralar ishlaydi: masalan, darsdan keyin 60 daqiqa, dam olish kunlari 90 daqiqa.",
+            "Shunda bola ham, ota-ona ham qaysi holat normal ekanini tushunadi.",
+            "Farzand uchun sog'lom ekran vaqti qoidalari mavzusida \"Qoidalar aniq va o'lchanadigan bo'lsin\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Ekran vaqti vazifaga bog'liq bo'lsin",
+          "paragraphs": [
+            "Dars, sport, uy vazifasi va uyqu tartibi bajarilgachgina ko'ngilochar ilovalarga ruxsat bering.",
+            "Bu yondashuv bolada mas'uliyat va o'zini boshqarish ko'nikmasini oshiradi.",
+            "Farzand uchun sog'lom ekran vaqti qoidalari mavzusida \"Ekran vaqti vazifaga bog'liq bo'lsin\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Taqiq emas, ritm muhim",
+          "paragraphs": [
+            "Jadval bir xil bo'lsa, nizolar kamayadi: bola ham nima kutishini oldindan biladi.",
+            "Tikoncha kabi vositalar bilan bu qoidalarni avtomatlashtirish mumkin.",
+            "Farzand uchun sog'lom ekran vaqti qoidalari mavzusida \"Taqiq emas, ritm muhim\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        }
+      ],
+      "ru": [
+        {
+          "heading": "Правила должны быть четкими и измеримыми",
+          "paragraphs": [
+            "Вместо общих формулировок работают конкретные лимиты: например, 60 минут после уроков и 90 минут в выходные.",
+            "Так и ребенок, и родитель понимают, какое использование считается нормой.",
+            "В материале «Правила здорового экранного времени для ребенка» блок «Правила должны быть четкими и измеримыми» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Экранное время должно зависеть от задач",
+          "paragraphs": [
+            "Разрешайте развлекательные приложения только после учебы, спорта, домашних дел и режима сна.",
+            "Такой подход развивает ответственность и навык самоконтроля у ребенка.",
+            "В материале «Правила здорового экранного времени для ребенка» блок «Экранное время должно зависеть от задач» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Не запрет, а ритм",
+          "paragraphs": [
+            "Когда расписание стабильно, конфликтов меньше: ребенок заранее понимает, чего ожидать.",
+            "С инструментами вроде Tikoncha эти правила можно автоматизировать.",
+            "В материале «Правила здорового экранного времени для ребенка» блок «Не запрет, а ритм» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Rules should be clear and measurable",
+          "paragraphs": [
+            "Specific limits work better than generic advice: for example, 60 minutes after school and 90 minutes on weekends.",
+            "This helps both parents and children understand what healthy usage looks like.",
+            "In “Healthy screen-time rules for your child”, the “Rules should be clear and measurable” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Screen time should depend on responsibilities",
+          "paragraphs": [
+            "Allow entertainment apps only after study, sports, chores, and sleep routines are completed.",
+            "This approach builds responsibility and self-management skills.",
+            "In “Healthy screen-time rules for your child”, the “Screen time should depend on responsibilities” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Rhythm matters more than bans",
+          "paragraphs": [
+            "When the schedule is consistent, conflicts drop because expectations are clear.",
+            "With tools like Tikoncha, these rules can be automated.",
+            "In “Healthy screen-time rules for your child”, the “Rhythm matters more than bans” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "dars-payti-telefon-chalgitmasligi-uchun-5-qadam",
+    "categoryKey": "focus",
+    "title": {
+      "uz": "Dars payti telefon chalg'itmasligi uchun 5 qadam",
+      "ru": "5 шагов, чтобы телефон не отвлекал во время учебы",
+      "en": "5 steps to stop phone distractions during study"
+    },
+    "excerpt": {
+      "uz": "Telefonni butunlay olib qo'ymasdan ham o'quv paytida diqqatni saqlash uchun ishlaydigan usullar.",
+      "ru": "Рабочие методы, которые помогают сохранять концентрацию на учебе без полного запрета телефона.",
+      "en": "Practical methods to keep focus during study without removing the phone completely."
+    },
+    "coverImageUrl": "/images/blog/post-03.png",
+    "coverImageAlt": {
+      "uz": "Diqqatni jamlash rejimi illyustratsiyasi",
+      "ru": "Иллюстрация режима концентрации",
+      "en": "Illustration of focus mode"
+    },
+    "publishedAt": "2026-02-22",
+    "readMinutes": 5,
+    "sections": {
+      "uz": [
+        {
+          "heading": "1-qadam: Fokus rejimini yoqing",
+          "paragraphs": [
+            "Dars vaqtida faqat kerakli ilovalar ochiq qolishi kerak. Qolgan ilovalar vaqtincha bloklanadi.",
+            "Bu usul bola va ota-ona o'rtasida kelishilgan tartibni saqlaydi.",
+            "Dars payti telefon chalg'itmasligi uchun 5 qadam mavzusida \"1-qadam: Fokus rejimini yoqing\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "2-3-qadam: Muhitni tozalang",
+          "paragraphs": [
+            "Bildirishnomalarni o'chiring, telefonni stolning chetiga qo'ying va 25-30 daqiqalik bloklarda o'qing.",
+            "Har blokdan keyin 5 daqiqa tanaffus diqqatning tiklanishiga yordam beradi.",
+            "Dars payti telefon chalg'itmasligi uchun 5 qadam mavzusida \"2-3-qadam: Muhitni tozalang\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "4-5-qadam: Natijani o'lchang",
+          "paragraphs": [
+            "Kun oxirida foydali vaqt va chalg'ishlar sonini ko'rib chiqing.",
+            "Raqamlar orqali bola ham o'z o'sishini ko'radi va motivatsiya ortadi.",
+            "Dars payti telefon chalg'itmasligi uchun 5 qadam mavzusida \"4-5-qadam: Natijani o'lchang\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        }
+      ],
+      "ru": [
+        {
+          "heading": "Шаг 1: включите режим фокуса",
+          "paragraphs": [
+            "Во время учебы должны быть доступны только нужные приложения, остальные временно блокируются.",
+            "Это помогает сохранить согласованный порядок между ребенком и родителем.",
+            "В материале «5 шагов, чтобы телефон не отвлекал во время учебы» блок «Шаг 1: включите режим фокуса» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Шаги 2-3: очистите среду",
+          "paragraphs": [
+            "Отключите уведомления, положите телефон в сторону и занимайтесь блоками по 25-30 минут.",
+            "После каждого блока делайте 5-минутный перерыв для восстановления внимания.",
+            "В материале «5 шагов, чтобы телефон не отвлекал во время учебы» блок «Шаги 2-3: очистите среду» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Шаги 4-5: измеряйте результат",
+          "paragraphs": [
+            "В конце дня смотрите полезное время и количество отвлечений.",
+            "Цифры показывают ребенку прогресс и усиливают мотивацию.",
+            "В материале «5 шагов, чтобы телефон не отвлекал во время учебы» блок «Шаги 4-5: измеряйте результат» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Step 1: turn on focus mode",
+          "paragraphs": [
+            "During study time, only essential apps should remain available, while others are temporarily blocked.",
+            "This keeps the agreed routine between parent and child consistent.",
+            "In “5 steps to stop phone distractions during study”, the “Step 1: turn on focus mode” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Steps 2-3: clean up the environment",
+          "paragraphs": [
+            "Disable notifications, place the phone away, and study in 25-30 minute blocks.",
+            "Take a 5-minute break after each block to restore attention.",
+            "In “5 steps to stop phone distractions during study”, the “Steps 2-3: clean up the environment” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Steps 4-5: measure outcomes",
+          "paragraphs": [
+            "At the end of the day, review productive time and distraction count.",
+            "Seeing progress in numbers boosts the child’s motivation.",
+            "In “5 steps to stop phone distractions during study”, the “Steps 4-5: measure outcomes” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ijtimoiy-tarmoqlarda-xavfsiz-va-meyoriy-foydalanish",
+    "categoryKey": "digital-habits",
+    "title": {
+      "uz": "Ijtimoiy tarmoqlardan xavfsiz va me'yoriy foydalanish",
+      "ru": "Безопасное и умеренное использование соцсетей",
+      "en": "Safe and balanced social media use"
+    },
+    "excerpt": {
+      "uz": "Bolalar uchun ijtimoiy tarmoqlarda sog'lom odatlarni shakllantirish bo'yicha oddiy qo'llanma.",
+      "ru": "Простое руководство по формированию здоровых привычек использования соцсетей у детей.",
+      "en": "A simple guide to building healthy social media habits for children."
+    },
+    "coverImageUrl": "/images/blog/post-04.png",
+    "coverImageAlt": {
+      "uz": "Ijtimoiy tarmoq xavfsizligi illyustratsiyasi",
+      "ru": "Иллюстрация безопасности в социальных сетях",
+      "en": "Illustration of social media safety"
+    },
+    "publishedAt": "2026-02-18",
+    "readMinutes": 8,
+    "sections": {
+      "uz": [
+        {
+          "heading": "Kontent sifati vaqt miqdoridan kam emas",
+          "paragraphs": [
+            "Faqat vaqtni cheklash yetmaydi: bola nimalarni ko'rayotgani ham muhim.",
+            "Zararli va manipulyativ kontentlarni filtrlash uchun xavfsizlik sozlamalarini yoqing.",
+            "Ijtimoiy tarmoqlardan xavfsiz va me'yoriy foydalanish mavzusida \"Kontent sifati vaqt miqdoridan kam emas\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Ochiq muloqot qoidasi",
+          "paragraphs": [
+            "Bola noqulay kontentga duch kelsa, qo'rqmasdan ayta oladigan muhit yarating.",
+            "Nazorat va ishonch birga ishlasa, natija barqaror bo'ladi.",
+            "Ijtimoiy tarmoqlardan xavfsiz va me'yoriy foydalanish mavzusida \"Ochiq muloqot qoidasi\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Raqamli gigiyena odatlari",
+          "paragraphs": [
+            "Uyqudan oldin ekran yo'q, ovqat payti telefon yo'q, dars vaqtida fokus rejimi yoqilgan bo'lsin.",
+            "Shu oddiy qoidalar bilan stress kamayadi va oiladagi muvozanat yaxshilanadi.",
+            "Ijtimoiy tarmoqlardan xavfsiz va me'yoriy foydalanish mavzusida \"Raqamli gigiyena odatlari\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        }
+      ],
+      "ru": [
+        {
+          "heading": "Качество контента не менее важно, чем время",
+          "paragraphs": [
+            "Ограничивать только время недостаточно: важно, что именно смотрит ребенок.",
+            "Включайте настройки безопасности, чтобы фильтровать вредный и манипулятивный контент.",
+            "В материале «Безопасное и умеренное использование соцсетей» блок «Качество контента не менее важно, чем время» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Правило открытого диалога",
+          "paragraphs": [
+            "Создайте среду, где ребенок может без страха рассказать о неприятном контенте.",
+            "Когда контроль и доверие работают вместе, результат становится стабильным.",
+            "В материале «Безопасное и умеренное использование соцсетей» блок «Правило открытого диалога» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Привычки цифровой гигиены",
+          "paragraphs": [
+            "Без экрана перед сном, без телефона за столом, включенный фокус-режим во время учебы.",
+            "Эти простые правила снижают стресс и улучшают баланс в семье.",
+            "В материале «Безопасное и умеренное использование соцсетей» блок «Привычки цифровой гигиены» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Content quality matters as much as screen time",
+          "paragraphs": [
+            "Limiting time alone is not enough; what children consume also matters.",
+            "Enable safety settings to filter harmful and manipulative content.",
+            "In “Safe and balanced social media use”, the “Content quality matters as much as screen time” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Keep communication open",
+          "paragraphs": [
+            "Create an environment where children can report uncomfortable content without fear.",
+            "When supervision and trust work together, outcomes are more sustainable.",
+            "In “Safe and balanced social media use”, the “Keep communication open” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Build digital hygiene habits",
+          "paragraphs": [
+            "No screens before sleep, no phones at meals, and focus mode during study.",
+            "These simple rules reduce stress and improve family balance.",
+            "In “Safe and balanced social media use”, the “Build digital hygiene habits” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "tungi-ekran-va-uyqu-buzilishi-boglanishi",
+    "categoryKey": "sleep",
+    "title": {
+      "uz": "Tungi ekran va uyqu buzilishi o'rtasidagi bog'liqlik",
+      "ru": "Связь вечернего экрана и нарушений сна",
+      "en": "The link between late-night screens and sleep disruption"
+    },
+    "excerpt": {
+      "uz": "Nega kechqurun telefon ishlatish ertasi kuni energiya va diqqatga kuchli ta'sir qiladi?",
+      "ru": "Почему использование телефона вечером сильно влияет на энергию и внимание на следующий день?",
+      "en": "Why does phone use at night strongly affect next-day energy and focus?"
+    },
+    "coverImageUrl": "/images/blog/post-05.png",
+    "coverImageAlt": {
+      "uz": "Uyqu va ekran nuri illyustratsiyasi",
+      "ru": "Иллюстрация сна и света экрана",
+      "en": "Illustration of sleep and screen light"
+    },
+    "publishedAt": "2026-02-14",
+    "readMinutes": 6,
+    "sections": {
+      "uz": [
+        {
+          "heading": "Ko'k nur va melatonin",
+          "paragraphs": [
+            "Ekran nuri uyqu gormoni melatoninning ajralishini sekinlashtiradi.",
+            "Natijada bola kech uxlaydi, ertalab qiyin uyg'onadi va kun davomida charchoq sezadi.",
+            "Tungi ekran va uyqu buzilishi o'rtasidagi bog'liqlik mavzusida \"Ko'k nur va melatonin\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Uyqu sifati pasaysa, dars sifati ham pasayadi",
+          "paragraphs": [
+            "Uyqusizlik xotira, e'tibor va kayfiyatga bevosita ta'sir qiladi.",
+            "Bu esa o'quv samaradorligi va oiladagi emotsional muhitni ham pasaytiradi.",
+            "Tungi ekran va uyqu buzilishi o'rtasidagi bog'liqlik mavzusida \"Uyqu sifati pasaysa, dars sifati ham pasayadi\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Amaliy yechim",
+          "paragraphs": [
+            "Uyqudan 60 daqiqa oldin 'ekransiz zona' qiling va avtomatik bedtime cheklovini yoqing.",
+            "Bir necha hafta ichida uyqu ritmi va ertalabki holat sezilarli yaxshilanadi.",
+            "Tungi ekran va uyqu buzilishi o'rtasidagi bog'liqlik mavzusida \"Amaliy yechim\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        }
+      ],
+      "ru": [
+        {
+          "heading": "Синий свет и мелатонин",
+          "paragraphs": [
+            "Свет экрана замедляет выработку мелатонина — гормона сна.",
+            "В результате ребенок позже засыпает, тяжелее просыпается и устает в течение дня.",
+            "В материале «Связь вечернего экрана и нарушений сна» блок «Синий свет и мелатонин» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Плохой сон снижает качество учебы",
+          "paragraphs": [
+            "Недосып напрямую влияет на память, внимание и эмоциональное состояние.",
+            "Это ухудшает учебную эффективность и атмосферу в семье.",
+            "В материале «Связь вечернего экрана и нарушений сна» блок «Плохой сон снижает качество учебы» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Практическое решение",
+          "paragraphs": [
+            "Сделайте «зону без экрана» за 60 минут до сна и включите автоматические ограничения перед сном.",
+            "Уже через несколько недель сон и утреннее состояние заметно улучшаются.",
+            "В материале «Связь вечернего экрана и нарушений сна» блок «Практическое решение» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Blue light and melatonin",
+          "paragraphs": [
+            "Screen light slows melatonin production, the hormone that regulates sleep.",
+            "As a result, children fall asleep later, wake up harder, and feel tired during the day.",
+            "In “The link between late-night screens and sleep disruption”, the “Blue light and melatonin” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Poor sleep lowers learning quality",
+          "paragraphs": [
+            "Sleep deprivation directly impacts memory, attention, and mood.",
+            "This reduces school performance and affects the emotional climate at home.",
+            "In “The link between late-night screens and sleep disruption”, the “Poor sleep lowers learning quality” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Practical fix",
+          "paragraphs": [
+            "Create a 60-minute no-screen zone before bedtime and enable automatic bedtime limits.",
+            "Within a few weeks, sleep rhythm and morning condition usually improve noticeably.",
+            "In “The link between late-night screens and sleep disruption”, the “Practical fix” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ota-onalar-kop-qiladigan-5-ta-raqamli-nazorat-xatosi",
+    "categoryKey": "parenting",
+    "title": {
+      "uz": "Ota-onalar ko'p qiladigan 5 ta raqamli nazorat xatosi",
+      "ru": "5 частых ошибок родителей в цифровом контроле",
+      "en": "5 common parental control mistakes"
+    },
+    "excerpt": {
+      "uz": "Yaxshi niyat bilan qilingan, lekin amalda qarama-qarshi natija beradigan yondashuvlar haqida.",
+      "ru": "О подходах с хорошими намерениями, которые на практике дают обратный эффект.",
+      "en": "About well-intended approaches that often produce the opposite result in practice."
+    },
+    "coverImageUrl": "/images/blog/post-06.png",
+    "coverImageAlt": {
+      "uz": "Ota-ona nazorati xatolari illyustratsiyasi",
+      "ru": "Иллюстрация ошибок родительского контроля",
+      "en": "Illustration of parental control mistakes"
+    },
+    "publishedAt": "2026-02-10",
+    "readMinutes": 9,
+    "sections": {
+      "uz": [
+        {
+          "heading": "1-2 xato: faqat taqiq va faqat jazoga tayanish",
+          "paragraphs": [
+            "To'liq taqiq qisqa muddatda ishlagandek ko'rinadi, ammo yashirin foydalanishni kuchaytiradi.",
+            "Jazo markazli yondashuv ishonchni pasaytiradi va muloqotni yopadi.",
+            "Ota-onalar ko'p qiladigan 5 ta raqamli nazorat xatosi mavzusida \"1-2 xato: faqat taqiq va faqat jazoga tayanish\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "3-4 xato: noaniq qoida va notekis nazorat",
+          "paragraphs": [
+            "Bir kuni ruxsat, bir kuni taqiq bo'lsa, bola uchun chegaralar tushunarsiz bo'ladi.",
+            "Qoidalar sodda, barqaror va o'lchanadigan bo'lishi shart.",
+            "Ota-onalar ko'p qiladigan 5 ta raqamli nazorat xatosi mavzusida \"3-4 xato: noaniq qoida va notekis nazorat\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "5-xato: natijani umuman o'lchamaslik",
+          "paragraphs": [
+            "Raqamlarsiz nazorat hissiy taxminga aylanadi.",
+            "Statistika, vaqt limiti va haftalik tahlil qarorlarni aniqroq qiladi.",
+            "Ota-onalar ko'p qiladigan 5 ta raqamli nazorat xatosi mavzusida \"5-xato: natijani umuman o'lchamaslik\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        }
+      ],
+      "ru": [
+        {
+          "heading": "Ошибки 1-2: только запрет и только наказание",
+          "paragraphs": [
+            "Полный запрет может дать краткосрочный эффект, но обычно усиливает скрытое использование.",
+            "Подход, основанный только на наказании, снижает доверие и закрывает диалог.",
+            "В материале «5 частых ошибок родителей в цифровом контроле» блок «Ошибки 1-2: только запрет и только наказание» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Ошибки 3-4: неясные правила и нерегулярный контроль",
+          "paragraphs": [
+            "Если сегодня можно, а завтра нельзя, границы для ребенка становятся непонятными.",
+            "Правила должны быть простыми, стабильными и измеримыми.",
+            "В материале «5 частых ошибок родителей в цифровом контроле» блок «Ошибки 3-4: неясные правила и нерегулярный контроль» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Ошибка 5: отсутствие измерения результата",
+          "paragraphs": [
+            "Без цифр контроль превращается в эмоциональные догадки.",
+            "Статистика, лимиты времени и еженедельный анализ делают решения точнее.",
+            "В материале «5 частых ошибок родителей в цифровом контроле» блок «Ошибка 5: отсутствие измерения результата» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Mistakes 1-2: relying only on bans and punishment",
+          "paragraphs": [
+            "A total ban may look effective short-term, but often increases hidden usage.",
+            "A punishment-only approach lowers trust and shuts down communication.",
+            "In “5 common parental control mistakes”, the “Mistakes 1-2: relying only on bans and punishment” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Mistakes 3-4: unclear rules and inconsistent control",
+          "paragraphs": [
+            "If rules change daily, boundaries become confusing for children.",
+            "Rules must be simple, stable, and measurable.",
+            "In “5 common parental control mistakes”, the “Mistakes 3-4: unclear rules and inconsistent control” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Mistake 5: not measuring outcomes",
+          "paragraphs": [
+            "Without data, control turns into emotional guesswork.",
+            "Stats, time limits, and weekly reviews make decisions much more accurate.",
+            "In “5 common parental control mistakes”, the “Mistake 5: not measuring outcomes” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "taqiqsiz-nazorat-bolada-masuliyatni-qanday-oshiradi",
+    "categoryKey": "parenting",
+    "title": {
+      "uz": "Taqiqsiz nazorat bolada mas'uliyatni qanday oshiradi?",
+      "ru": "Как контроль без запретов развивает ответственность у ребенка?",
+      "en": "How does non-restrictive control build responsibility in children?"
+    },
+    "excerpt": {
+      "uz": "Telefonni olib qo'yish o'rniga, ongli foydalanish odatini shakllantirish bo'yicha yondashuv.",
+      "ru": "Подход, который формирует осознанное использование вместо простого изъятия телефона.",
+      "en": "An approach that builds mindful use instead of simply taking the phone away."
+    },
+    "coverImageUrl": "/images/blog/post-07.png",
+    "coverImageAlt": {
+      "uz": "Balansli nazorat illyustratsiyasi",
+      "ru": "Иллюстрация сбалансированного контроля",
+      "en": "Illustration of balanced control"
+    },
+    "publishedAt": "2026-02-05",
+    "readMinutes": 7,
+    "sections": {
+      "uz": [
+        {
+          "heading": "Nazorat + tushuntirish = natija",
+          "paragraphs": [
+            "Bola qoidaning sababini tushunsa, unga rioya qilish ehtimoli oshadi.",
+            "Shuning uchun 'nega' degan savolga javob beradigan oilaviy qoidalar tuzing.",
+            "Taqiqsiz nazorat bolada mas'uliyatni qanday oshiradi? mavzusida \"Nazorat + tushuntirish = natija\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Mas'uliyatni bosqichma-bosqich bering",
+          "paragraphs": [
+            "Avval qisqa limitlar va sodda qoidalar, keyin asta-sekin mustaqil boshqaruv.",
+            "Shu yondashuv bola o'zini boshqarishni o'rganishiga yordam beradi.",
+            "Taqiqsiz nazorat bolada mas'uliyatni qanday oshiradi? mavzusida \"Mas'uliyatni bosqichma-bosqich bering\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Muvozanatli model",
+          "paragraphs": [
+            "Ta'lim, dam olish va o'yin uchun alohida vaqt bloki bo'lsin.",
+            "Bu model uzoq muddatda ham ishlaydi va oiladagi nizolarni kamaytiradi.",
+            "Taqiqsiz nazorat bolada mas'uliyatni qanday oshiradi? mavzusida \"Muvozanatli model\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        }
+      ],
+      "ru": [
+        {
+          "heading": "Контроль + объяснение = результат",
+          "paragraphs": [
+            "Если ребенок понимает смысл правила, он с большей вероятностью его соблюдает.",
+            "Поэтому вводите семейные правила, которые отвечают на вопрос «почему».",
+            "В материале «Как контроль без запретов развивает ответственность у ребенка?» блок «Контроль + объяснение = результат» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Передавайте ответственность постепенно",
+          "paragraphs": [
+            "Сначала короткие лимиты и простые правила, затем постепенный переход к самостоятельному управлению.",
+            "Так ребенок учится самоконтролю без резких перегибов.",
+            "В материале «Как контроль без запретов развивает ответственность у ребенка?» блок «Передавайте ответственность постепенно» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Сбалансированная модель",
+          "paragraphs": [
+            "Выделяйте отдельные блоки времени для учебы, отдыха и игр.",
+            "Эта модель работает в долгую и снижает количество семейных конфликтов.",
+            "В материале «Как контроль без запретов развивает ответственность у ребенка?» блок «Сбалансированная модель» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Control + explanation = results",
+          "paragraphs": [
+            "When children understand why a rule exists, they are more likely to follow it.",
+            "That is why family rules should always answer the question “why”.",
+            "In “How does non-restrictive control build responsibility in children?”, the “Control + explanation = results” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Transfer responsibility step by step",
+          "paragraphs": [
+            "Start with short limits and simple rules, then gradually move toward self-management.",
+            "This approach helps children develop real self-control over time.",
+            "In “How does non-restrictive control build responsibility in children?”, the “Transfer responsibility step by step” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Balanced model",
+          "paragraphs": [
+            "Use separate time blocks for study, rest, and games.",
+            "This model is sustainable long-term and reduces family conflicts.",
+            "In “How does non-restrictive control build responsibility in children?”, the “Balanced model” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "oyin-va-oqish-ortasida-telefon-balansini-topish",
+    "categoryKey": "focus",
+    "title": {
+      "uz": "O'yin va o'qish orasida telefon balansini topish",
+      "ru": "Как найти баланс телефона между игрой и учебой",
+      "en": "Finding phone balance between gaming and studying"
+    },
+    "excerpt": {
+      "uz": "Bola sevadigan o'yinlarni butunlay taqiqlamasdan, o'qish bilan muvozanatni saqlash usuli.",
+      "ru": "Способ сохранить баланс с учебой, не запрещая полностью любимые игры ребенка.",
+      "en": "A method to keep study balance without fully banning games your child enjoys."
+    },
+    "coverImageUrl": "/images/blog/post-08.png",
+    "coverImageAlt": {
+      "uz": "O'yin va o'qish balansi illyustratsiyasi",
+      "ru": "Иллюстрация баланса игры и учебы",
+      "en": "Illustration of game-study balance"
+    },
+    "publishedAt": "2026-01-30",
+    "readMinutes": 6,
+    "sections": {
+      "uz": [
+        {
+          "heading": "O'yin dushman emas, me'yor muhim",
+          "paragraphs": [
+            "O'yinlar dam olish va motivatsiya manbai bo'lishi mumkin.",
+            "Muammo o'yinning o'zi emas, balki nazoratsiz vaqt sarfi va jadvalsizlikdir.",
+            "O'yin va o'qish orasida telefon balansini topish mavzusida \"O'yin dushman emas, me'yor muhim\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Balans modeli",
+          "paragraphs": [
+            "Avval vazifa, keyin mukofot modeli yaxshi ishlaydi: dars tugagach, belgilangan o'yin vaqti.",
+            "Bu yondashuv bolada intizom va natija o'rtasidagi bog'liqlikni mustahkamlaydi.",
+            "O'yin va o'qish orasida telefon balansini topish mavzusida \"Balans modeli\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        },
+        {
+          "heading": "Haftalik monitoring",
+          "paragraphs": [
+            "Har hafta ekran vaqti hisobotini birga ko'rib, keyingi haftaga kichik maqsad qo'ying.",
+            "Kichik, ammo barqaror o'zgarishlar eng yaxshi natija beradi.",
+            "O'yin va o'qish orasida telefon balansini topish mavzusida \"Haftalik monitoring\" bosqichini kundalik hayotga moslashtirish muhim: aniq vaqt, aniq joy va aniq qoida bo'lsa, bola qarorni hissiyot bilan emas, oldindan kelishilgan tartib bilan qabul qiladi.",
+            "Bu qismda eng samarali usul - kichik maqsadlardan boshlash: bir haftada mukammal natija kutmasdan, har kuni 10-15 foizlik yaxshilanishni kuzatish va shu asosda keyingi qadamni belgilash.",
+            "Agar qarshilik bo'lsa, to'liq taqiq o'rniga muqobil variant taklif qiling: dam olish, sport yoki qisqa tanaffus kabi alternativalar bolada nazoratni jazo emas, muvozanat sifatida qabul qilishga yordam beradi.",
+            "Ota-ona uchun ham barqarorlik juda muhim: bugun bir qoida, ertaga boshqa qoida bo'lsa, ishonch pasayadi. Shu sababli qoidalar yozib qo'yilishi, hamma uchun tushunarli bo'lishi va bir xil qo'llanishi kerak.",
+            "Natijani sonlarda ko'rish foydali: kunlik ekran vaqti, chalg'ishlar soni va fokusdagi daqiqalarni haftalik jadvalga kiritish orqali qaysi usul ishlayotgani aniq ko'rinadi va rejani oson yangilash mumkin.",
+            "Rejani oy oxirida qayta ko'rib chiqing: qaysi kunlarda qoidaga rioya qilish oson bo'ldi, qaysi paytda buzilish ko'paydi, qaysi triggerlar tez chalg'itdi. Shu tahlil keyingi oy uchun aniq va realistik strategiya tuzishga yordam beradi.",
+            "Maqsad faqat vaqtni qisqartirish emas, balki sifatli foydalanishdir. Shu sababli bolaga qaysi ilova nima uchun foydali, qaysi kontent zararli ekanini tushuntiring; ongli tanlov ko'nikmasi shakllansa, nazorat tashqi majburlashsiz ham ishlay boshlaydi.",
+            "Amaliyotda 20-30 daqiqalik fokus bloklari va qisqa tanaffuslar yaxshi natija beradi. Har blokdan keyin holatni qisqa muhokama qiling: nima yaxshi ketdi, nima qiyin bo'ldi, keyingi blokda qaysi bitta odatni yaxshilash kerak.",
+            "Oilaviy kelishuv yozma bo'lsa, bahslar kamayadi: ekran vaqti qachon, qancha, qanday shartda berilishi aniq bo'ladi. Ochiq kelishuv bolaga adolat hissini beradi, ota-onaga esa qarorlarni hissiy bosimsiz boshqarish imkonini yaratadi."
+          ]
+        }
+      ],
+      "ru": [
+        {
+          "heading": "Игры не враг, важна мера",
+          "paragraphs": [
+            "Игры могут быть источником отдыха и мотивации.",
+            "Проблема не в играх как таковых, а в бесконтрольном времени и отсутствии режима.",
+            "В материале «Как найти баланс телефона между игрой и учебой» блок «Игры не враг, важна мера» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Модель баланса",
+          "paragraphs": [
+            "Хорошо работает схема «сначала задача, потом награда»: после учебы — заранее выделенное время на игру.",
+            "Этот подход укрепляет связь между дисциплиной и результатом.",
+            "В материале «Как найти баланс телефона между игрой и учебой» блок «Модель баланса» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        },
+        {
+          "heading": "Еженедельный мониторинг",
+          "paragraphs": [
+            "Раз в неделю вместе смотрите отчет по экранному времени и ставьте небольшой фокус на следующую неделю.",
+            "Небольшие, но стабильные изменения дают лучший результат.",
+            "В материале «Как найти баланс телефона между игрой и учебой» блок «Еженедельный мониторинг» важно перенести в повседневный режим: когда есть конкретное время, место и правило, ребенок принимает решение не импульсивно, а по заранее согласованному порядку.",
+            "Самый рабочий подход здесь — начать с небольших целей: не ждать идеального результата за неделю, а отслеживать ежедневное улучшение на 10-15% и на этой базе корректировать следующий шаг.",
+            "Если возникает сопротивление, лучше предложить альтернативу вместо полного запрета: короткая прогулка, спорт или пауза помогают ребенку воспринимать контроль не как наказание, а как систему баланса.",
+            "Для родителей критична последовательность: если сегодня одно правило, а завтра другое, доверие снижается. Поэтому правила стоит фиксировать письменно, делать их прозрачными и применять одинаково для всех случаев.",
+            "Полезно видеть прогресс в цифрах: дневное экранное время, количество отвлечений и минуты фокуса в недельном отчете быстро показывают, какие решения работают лучше и что нужно изменить в плане.",
+            "В конце месяца полезно пересматривать план: в какие дни правило выполнялось легче, когда срывы были чаще, какие триггеры отвлекали сильнее всего. Такой разбор помогает собрать реалистичную стратегию на следующий период.",
+            "Цель — не просто сократить время, а повысить качество использования. Поэтому важно объяснять ребенку, какие приложения действительно полезны, а какой контент может вредить; осознанный выбор работает устойчивее, чем внешнее давление.",
+            "На практике хорошо работают фокус-блоки по 20-30 минут с короткими перерывами. После каждого блока делайте небольшой разбор: что получилось, что мешало, какой один навык стоит улучшить в следующем цикле.",
+            "Письменное семейное соглашение снижает конфликты: когда, сколько и на каких условиях доступен экран, становится понятно заранее. Прозрачные правила дают ребенку ощущение справедливости, а родителям — спокойный формат управления."
+          ]
+        }
+      ],
+      "en": [
+        {
+          "heading": "Games are not the enemy, balance is key",
+          "paragraphs": [
+            "Games can be a source of relaxation and motivation.",
+            "The real issue is uncontrolled time use and lack of routine.",
+            "In “Finding phone balance between gaming and studying”, the “Games are not the enemy, balance is key” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Balance model",
+          "paragraphs": [
+            "The “task first, reward after” model works well: scheduled game time only after study is done.",
+            "This strengthens the connection between discipline and outcomes.",
+            "In “Finding phone balance between gaming and studying”, the “Balance model” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        },
+        {
+          "heading": "Weekly monitoring",
+          "paragraphs": [
+            "Review screen-time reports together every week and set one small goal for the next week.",
+            "Small but consistent changes produce the strongest long-term results.",
+            "In “Finding phone balance between gaming and studying”, the “Weekly monitoring” part should be converted into a daily routine: when time, place, and rules are specific, children make decisions based on structure rather than emotional impulses.",
+            "The most effective approach here is to start with small targets: instead of expecting perfect results in one week, track 10-15% daily improvement and use that data to define the next step.",
+            "If resistance appears, offer alternatives rather than a full ban: short walks, sports, or planned breaks help children perceive control as balanced support, not punishment.",
+            "Consistency from parents is just as important: if rules keep changing, trust drops quickly. That is why rules should be written down, explained clearly, and applied consistently across similar situations.",
+            "Numbers make progress visible: weekly tracking of screen time, distraction count, and focused minutes helps families quickly identify what works and adjust the plan with less conflict and better long-term outcomes.",
+            "At the end of each month, review the plan: identify days when rules worked smoothly, moments when breakdowns increased, and triggers that caused the strongest distractions. This review helps build a realistic strategy for the next period.",
+            "The goal is not only to reduce time but to improve usage quality. Explain which apps are useful and which content can be harmful; when children learn conscious choice, control becomes more sustainable and less dependent on external pressure.",
+            "In practice, 20-30 minute focus blocks with short breaks work well. After each block, run a quick reflection: what went well, what was difficult, and which single habit should be improved in the next cycle.",
+            "A written family agreement reduces conflict: everyone knows when screens are allowed, for how long, and under which conditions. Clear rules create a sense of fairness for children and a calmer management process for parents."
+          ]
+        }
+      ]
+    }
+  }
+]

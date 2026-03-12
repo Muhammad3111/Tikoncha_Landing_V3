@@ -79,6 +79,7 @@ export type AppTranslations = {
       consequences: string;
       leadingCountries: string;
       about: string;
+      blog: string;
       team: string;
     };
     footer: {

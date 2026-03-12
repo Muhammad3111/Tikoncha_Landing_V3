@@ -11,6 +11,7 @@ export const uzTranslations: AppTranslations = {
             consequences: "Oqibatlar",
             leadingCountries: "Yetakchi mamlakatlar",
             about: "Tikoncha haqida",
+            blog: "Blog",
             team: "Jamoamiz",
         },
         footer: {

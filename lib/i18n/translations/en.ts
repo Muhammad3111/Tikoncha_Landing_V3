@@ -10,6 +10,7 @@ export const enTranslations: AppTranslations = {
       "consequences": "Consequences",
       "leadingCountries": "Leading countries",
       "about": "About Tikoncha",
+      "blog": "Blog",
       "team": "Our team"
     },
     "footer": {

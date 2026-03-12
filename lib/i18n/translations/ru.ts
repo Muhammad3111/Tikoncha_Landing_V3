@@ -10,6 +10,7 @@ export const ruTranslations: AppTranslations = {
       "consequences": "Последствия",
       "leadingCountries": "Ведущие страны",
       "about": "О Tikoncha",
+      "blog": "Блог",
       "team": "Наша команда"
     },
     "footer": {
