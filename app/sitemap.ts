@@ -6,7 +6,15 @@ import { getAllBlogSlugs } from "@/content/blog";
 
 export const dynamic = "force-static";
 
-const INDEXABLE_ROUTES = ["/", "/team", "/privacy-policy", "/terms", "/blog"] as const;
+const INDEXABLE_ROUTES = [
+  "/",
+  "/team",
+  "/privacy-policy",
+  "/terms",
+  "/blog",
+  "/ustoz/privacy-policy",
+  "/delete",
+] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
