@@ -1,7 +1,7 @@
 export const PLAY_MARKET_URL =
   "https://play.google.com/store/search?q=tikoncha&c=apps&hl=en";
 
-export const APP_STORE_URL = "#";
+export const APP_STORE_URL = "https://apps.apple.com/uz/app/tikoncha-parent/id6756965935";
 
 export const VIDEO_STREAM_URL = "https://tikoncha.uz/media/tutorial.mp4";
 
