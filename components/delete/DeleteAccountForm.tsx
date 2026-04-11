@@ -44,6 +44,9 @@ type Copy = {
   modalConfirm: string;
   modalKeywordError: string;
   deleteConfirmWord: string;
+  userInfoName: string;
+  userInfoSurname: string;
+  userInfoPhone: string;
 };
 
 type Step = "phone" | "otp" | "confirm";
@@ -95,6 +98,9 @@ const copyByLang: Record<Lang, Copy> = {
     modalConfirm: "Hisobni o'chirish",
     modalKeywordError: "Tasdiqlash so'zini to'g'ri kiriting.",
     deleteConfirmWord: "O'chirish",
+    userInfoName: "Ism",
+    userInfoSurname: "Familiya",
+    userInfoPhone: "Telefon",
   },
   ru: {
     title: "Удаление аккаунта",
@@ -134,6 +140,9 @@ const copyByLang: Record<Lang, Copy> = {
     modalConfirm: "Удалить аккаунт",
     modalKeywordError: "Введите слово подтверждения корректно.",
     deleteConfirmWord: "Удалить",
+    userInfoName: "Имя",
+    userInfoSurname: "Фамилия",
+    userInfoPhone: "Телефон",
   },
   en: {
     title: "Delete Account",
@@ -173,6 +182,9 @@ const copyByLang: Record<Lang, Copy> = {
     modalConfirm: "Delete account",
     modalKeywordError: "Please enter the confirmation word correctly.",
     deleteConfirmWord: "Delete",
+    userInfoName: "First name",
+    userInfoSurname: "Last name",
+    userInfoPhone: "Phone",
   },
 };
 
@@ -221,22 +233,41 @@ const normalizeConfirmWord = (value: string): string =>
     .replace(/[ʼʻ‘’`´]/g, "'")
     .replace(/\s+/g, " ");
 
-const getUserIdFromVerifyPayload = (payload: unknown): string | null => {
+type VerifyResult = {
+  user_id: string;
+  access_token: string;
+  first_name: string;
+  last_name: string;
+};
+
+const getVerifyResult = (payload: unknown): VerifyResult | null => {
   if (!payload || typeof payload !== "object") return null;
 
-  const data = (payload as { data?: unknown }).data;
+  const root = payload as Record<string, unknown>;
+  if (root.success !== true) return null;
+
+  const data = root.data;
   if (!data || typeof data !== "object") return null;
 
-  const directUserId = (data as { user_id?: unknown }).user_id;
-  if (typeof directUserId === "string" && directUserId.trim()) {
-    return directUserId;
-  }
+  const d = data as Record<string, unknown>;
+  const getString = (obj: Record<string, unknown>, key: string): string =>
+    typeof obj[key] === "string" ? (obj[key] as string).trim() : "";
 
-  const userInfo = (data as { user_info?: unknown }).user_info;
+  const userId = getString(d, "user_id");
+  const accessToken = getString(d, "access_token");
+  if (!userId || !accessToken) return null;
+
+  const userInfo = d.user_info;
   if (!userInfo || typeof userInfo !== "object") return null;
 
-  const nestedUserId = (userInfo as { user_id?: unknown }).user_id;
-  return typeof nestedUserId === "string" && nestedUserId.trim() ? nestedUserId : null;
+  const info = userInfo as Record<string, unknown>;
+
+  return {
+    user_id: userId,
+    access_token: accessToken,
+    first_name: getString(info, "first_name"),
+    last_name: getString(info, "last_name"),
+  };
 };
 
 const buildApiUrl = (path: string): string => {
@@ -266,6 +297,22 @@ const isFailedApiEnvelope = (parsed: unknown): boolean => {
   }
 
   return false;
+};
+
+const getApiErrorMessage = (parsed: unknown): string | null => {
+  if (!parsed || typeof parsed !== "object") return null;
+
+  const payload = parsed as Record<string, unknown>;
+
+  if (typeof payload.message === "string" && payload.message.trim()) {
+    return payload.message.trim();
+  }
+
+  if (typeof payload.error === "string" && payload.error.trim()) {
+    return payload.error.trim();
+  }
+
+  return null;
 };
 
 async function readResponseData(response: Response): Promise<{ raw: string; parsed: unknown }> {
@@ -309,6 +356,8 @@ export function DeleteAccountForm({ lang }: Props) {
   const [isProcessingOtp, setIsProcessingOtp] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
   const [verifiedUserId, setVerifiedUserId] = useState<string | null>(null);
+  const [verifiedAccessToken, setVerifiedAccessToken] = useState<string | null>(null);
+  const [verifiedUserInfo, setVerifiedUserInfo] = useState<VerifyResult | null>(null);
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
   const [deleteConfirmInput, setDeleteConfirmInput] = useState("");
   const [toasts, setToasts] = useState<ToastItem[]>([]);
@@ -361,6 +410,8 @@ export function DeleteAccountForm({ lang }: Props) {
 
   const resetDeleteConfirmationState = () => {
     setVerifiedUserId(null);
+    setVerifiedAccessToken(null);
+    setVerifiedUserInfo(null);
     setDeleteConfirmInput("");
     setIsDeleteModalOpen(false);
   };
@@ -456,7 +507,8 @@ export function DeleteAccountForm({ lang }: Props) {
       const sendPayload = await readResponseData(response);
 
       if (!response.ok || isFailedApiEnvelope(sendPayload.parsed)) {
-        pushToast("error", copy.sendError);
+        const serverMessage = getApiErrorMessage(sendPayload.parsed);
+        pushToast("error", serverMessage ?? copy.sendError);
         return;
       }
 
@@ -510,20 +562,24 @@ export function DeleteAccountForm({ lang }: Props) {
       });
 
       const verifyPayload = await readResponseData(verifyResponse);
-      if (!verifyResponse.ok || isFailedApiEnvelope(verifyPayload.parsed)) {
+
+      if (isFailedApiEnvelope(verifyPayload.parsed)) {
+        const serverMessage = getApiErrorMessage(verifyPayload.parsed);
+        pushToast("error", serverMessage ?? copy.verifyError);
+        return;
+      }
+
+      const result = getVerifyResult(verifyPayload.parsed);
+      if (!result) {
         pushToast("error", copy.verifyError);
         return;
       }
 
-      const userId = getUserIdFromVerifyPayload(verifyPayload.parsed);
-      if (!userId) {
-        pushToast("error", copy.verifyError);
-        return;
-      }
+      localStorage.setItem("user_id", result.user_id);
 
-      localStorage.setItem("user_id", userId);
-
-      setVerifiedUserId(userId);
+      setVerifiedUserId(result.user_id);
+      setVerifiedAccessToken(result.access_token);
+      setVerifiedUserInfo(result);
       setDeleteConfirmInput("");
       setStep("confirm");
       setSecondsLeft(0);
@@ -551,7 +607,7 @@ export function DeleteAccountForm({ lang }: Props) {
   };
 
   const confirmAndDeleteAccount = async () => {
-    if (!verifiedUserId) {
+    if (!verifiedUserId || !verifiedAccessToken) {
       pushToast("error", copy.deleteError);
       return;
     }
@@ -563,7 +619,26 @@ export function DeleteAccountForm({ lang }: Props) {
 
     setIsDeleting(true);
     try {
-      pushToast("success", copy.deleteSuccess);
+      const response = await fetch(buildApiUrl(`/users/${verifiedUserId}`), {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${verifiedAccessToken}`,
+        },
+      });
+
+      const deletePayload = await readResponseData(response);
+
+      setIsDeleteModalOpen(false);
+
+      if (isFailedApiEnvelope(deletePayload.parsed)) {
+        const serverMessage = getApiErrorMessage(deletePayload.parsed);
+        pushToast("error", serverMessage ?? copy.deleteError);
+        return;
+      }
+
+      const successMessage = getApiErrorMessage(deletePayload.parsed);
+      pushToast("success", successMessage ?? copy.deleteSuccess);
       localStorage.removeItem("user_id");
       setPhoneDigits("");
       setStep("phone");
@@ -571,6 +646,7 @@ export function DeleteAccountForm({ lang }: Props) {
       clearOtp();
       resetDeleteConfirmationState();
     } catch {
+      setIsDeleteModalOpen(false);
       pushToast("error", copy.unknownError);
     } finally {
       setIsDeleting(false);
@@ -732,7 +808,27 @@ export function DeleteAccountForm({ lang }: Props) {
             onClick={(event) => event.stopPropagation()}
           >
             <h2 className="text-xl font-semibold text-white">{copy.modalTitle}</h2>
-            <p className="mt-2 text-sm leading-6 text-white/75">{copy.modalDescription}</p>
+
+            {verifiedUserInfo && (
+              <div className="mt-4 rounded-xl border border-white/10 bg-white/[0.04] p-4">
+                <div className="flex flex-col gap-2 text-sm">
+                  <div className="flex items-center justify-between">
+                    <span className="text-white/55">{copy.userInfoName}</span>
+                    <span className="font-medium text-white">{verifiedUserInfo.first_name || "—"}</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-white/55">{copy.userInfoSurname}</span>
+                    <span className="font-medium text-white">{verifiedUserInfo.last_name || "—"}</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-white/55">{copy.userInfoPhone}</span>
+                    <span className="font-medium text-white">{phoneFullDisplay}</span>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            <p className="mt-4 text-sm leading-6 text-white/75">{copy.modalDescription}</p>
             <p className="mt-2 text-sm font-semibold text-[#FDB022]">{copy.modalKeywordHint}</p>
 
             <label htmlFor="delete-confirm-word" className="mt-4 block text-sm font-medium text-white/85">
