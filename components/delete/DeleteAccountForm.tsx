@@ -234,7 +234,6 @@ const normalizeConfirmWord = (value: string): string =>
     .replace(/\s+/g, " ");
 
 type VerifyResult = {
-  user_id: string;
   access_token: string;
   first_name: string;
   last_name: string;
@@ -253,9 +252,8 @@ const getVerifyResult = (payload: unknown): VerifyResult | null => {
   const getString = (obj: Record<string, unknown>, key: string): string =>
     typeof obj[key] === "string" ? (obj[key] as string).trim() : "";
 
-  const userId = getString(d, "user_id");
   const accessToken = getString(d, "access_token");
-  if (!userId || !accessToken) return null;
+  if (!accessToken) return null;
 
   const userInfo = d.user_info;
   if (!userInfo || typeof userInfo !== "object") return null;
@@ -263,7 +261,6 @@ const getVerifyResult = (payload: unknown): VerifyResult | null => {
   const info = userInfo as Record<string, unknown>;
 
   return {
-    user_id: userId,
     access_token: accessToken,
     first_name: getString(info, "first_name"),
     last_name: getString(info, "last_name"),
@@ -355,7 +352,6 @@ export function DeleteAccountForm({ lang }: Props) {
   const [isSending, setIsSending] = useState(false);
   const [isProcessingOtp, setIsProcessingOtp] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
-  const [verifiedUserId, setVerifiedUserId] = useState<string | null>(null);
   const [verifiedAccessToken, setVerifiedAccessToken] = useState<string | null>(null);
   const [verifiedUserInfo, setVerifiedUserInfo] = useState<VerifyResult | null>(null);
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
@@ -409,7 +405,6 @@ export function DeleteAccountForm({ lang }: Props) {
   };
 
   const resetDeleteConfirmationState = () => {
-    setVerifiedUserId(null);
     setVerifiedAccessToken(null);
     setVerifiedUserInfo(null);
     setDeleteConfirmInput("");
@@ -575,9 +570,6 @@ export function DeleteAccountForm({ lang }: Props) {
         return;
       }
 
-      localStorage.setItem("user_id", result.user_id);
-
-      setVerifiedUserId(result.user_id);
       setVerifiedAccessToken(result.access_token);
       setVerifiedUserInfo(result);
       setDeleteConfirmInput("");
@@ -607,7 +599,7 @@ export function DeleteAccountForm({ lang }: Props) {
   };
 
   const confirmAndDeleteAccount = async () => {
-    if (!verifiedUserId || !verifiedAccessToken) {
+    if (!verifiedAccessToken) {
       pushToast("error", copy.deleteError);
       return;
     }
@@ -619,7 +611,7 @@ export function DeleteAccountForm({ lang }: Props) {
 
     setIsDeleting(true);
     try {
-      const response = await fetch(buildApiUrl(`/users/${verifiedUserId}`), {
+      const response = await fetch(buildApiUrl(`/users/`), {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
@@ -639,7 +631,6 @@ export function DeleteAccountForm({ lang }: Props) {
 
       const successMessage = getApiErrorMessage(deletePayload.parsed);
       pushToast("success", successMessage ?? copy.deleteSuccess);
-      localStorage.removeItem("user_id");
       setPhoneDigits("");
       setStep("phone");
       setSecondsLeft(0);
