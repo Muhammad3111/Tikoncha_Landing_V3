@@ -9,6 +9,7 @@ export const dynamic = "force-static";
 const INDEXABLE_ROUTES = [
   "/",
   "/team",
+  "/products",
   "/privacy-policy",
   "/terms",
   "/blog",

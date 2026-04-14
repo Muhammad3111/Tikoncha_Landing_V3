@@ -3,6 +3,7 @@ import type { Lang } from "@/lib/i18n/config";
 import { localizedPath } from "@/lib/i18n/utils";
 import type { BlogPost } from "@/content/blog";
 import { formatBlogDate } from "@/lib/blog-date";
+import { BlogToc } from "@/components/blog/BlogToc";
 
 type Props = {
   lang: Lang;
@@ -43,13 +44,13 @@ export function BlogDetailContent({ lang, post, relatedPosts, labels }: Props) {
           {post.title}
         </h1>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm text-white/70">
-          <span className="rounded-full bg-[#4BB462]/20 px-3 py-1 text-[#7ce191]">{post.categoryLabel}</span>
+          <span className="rounded-full bg-brand/20 px-3 py-1 text-brand-soft">{post.categoryLabel}</span>
           <span>{formatBlogDate(lang, post.publishedAt, "long")}</span>
           <span>{post.readMinutes} {labels.readMinutesLabel}</span>
         </div>
       </header>
 
-      <div className="mx-auto mt-7 aspect-[16/9] w-full max-w-[840px] overflow-hidden rounded-[36px] border border-white/10 bg-black/30 shadow-[0_28px_70px_rgba(0,0,0,0.45)]">
+      <div className="mt-7 aspect-[16/9] w-full overflow-hidden rounded-[36px] border border-white/10 bg-black/30 shadow-[0_28px_70px_rgba(0,0,0,0.45)]">
         <img
           src={post.coverImageUrl}
           alt={post.coverImageAlt}
@@ -60,18 +61,10 @@ export function BlogDetailContent({ lang, post, relatedPosts, labels }: Props) {
       </div>
 
       <div className="mt-10 grid gap-8 xl:grid-cols-[280px_minmax(0,1fr)]">
-        <aside className="rounded-[24px] border border-white/10 bg-white/[0.04] p-5 xl:sticky xl:top-24 xl:h-fit">
-          <p className="mb-3 text-sm font-semibold text-white/85">{labels.articleTocHeading}</p>
-          <ul className="space-y-2 text-sm">
-            {sectionAnchors.map((section) => (
-              <li key={section.id}>
-                <a className="text-white/70 transition hover:text-[#FDB022]" href={`#${section.id}`}>
-                  {section.heading}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </aside>
+        <BlogToc
+          sections={sectionAnchors.map(({ id, heading }) => ({ id, heading }))}
+          heading={labels.articleTocHeading}
+        />
 
         <article className="rounded-[24px] border border-white/10 bg-white/[0.03] p-5 md:p-8">
           {sectionAnchors.map((section) => (
@@ -99,7 +92,7 @@ export function BlogDetailContent({ lang, post, relatedPosts, labels }: Props) {
                 <div className="p-4">
                   <h3 className="text-lg font-semibold text-white">{item.title}</h3>
                   <p className="mt-2 text-sm leading-6 text-white/70">{item.excerpt}</p>
-                  <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#FDB022]">
+                  <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-accent">
                     {labels.readMoreLabel}
                   </span>
                 </div>

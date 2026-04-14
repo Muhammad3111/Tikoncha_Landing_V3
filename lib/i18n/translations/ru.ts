@@ -8,10 +8,11 @@ export const ruTranslations: AppTranslations = {
     "nav": {
       "issue": "Проблема",
       "consequences": "Последствия",
-      "leadingCountries": "Ведущие страны",
-      "about": "О Tikoncha",
+      "leadingCountries": "Международный опыт",
+      "about": "Tikoncha",
       "blog": "Блог",
-      "team": "Наша команда"
+      "team": "Наша команда",
+      "products": "Приложения"
     },
     "footer": {
       "tagline": "Надежный партнер для образования нового поколения и цифровой безопасности.",
@@ -453,5 +454,40 @@ export const ruTranslations: AppTranslations = {
     },
     "heading": "Наша команда",
     "subtitle": "Наша сила — в единстве и опыте."
+  },
+  "products": {
+    "meta": {
+      "title": "Приложения - Tikoncha",
+      "description": "Приложения Tikoncha и школьная админ-панель: Основное, Для родителей, Для учителей и Школа. Ссылки Google Play, App Store и доступ к панели администратора.",
+      "keywords": "приложения tikoncha, основное приложение tikoncha, приложение для родителей, приложение для учителей, школьная админ панель, продукты tikoncha"
+    },
+    "heading": "Приложения",
+    "headingAccent": "Tikoncha",
+    "subtitle": "Основное приложение подходит всем. Приложения для родителей и учителей — под вашу роль, а школьная панель — для администраторов.",
+    "adminNote": "Учётные данные в Telegram",
+    "adminNoteLinkLabel": "@tikoncha_admin",
+    "storeLabels": {
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "openPanel": "Открыть панель"
+    },
+    "items": {
+      "student": {
+        "title": "Основное приложение",
+        "description": "Здоровый баланс с технологиями — не позволяйте жизни остаться за экраном."
+      },
+      "parent": {
+        "title": "Приложение для родителей",
+        "description": "Лимиты экранного времени, блокировка приложений и детальные ежедневные отчёты для родителей."
+      },
+      "teacher": {
+        "title": "Приложение Teacher",
+        "description": "Управление классом, задания и аналитика вовлечённости учеников."
+      },
+      "admin": {
+        "title": "Школьный админ",
+        "description": "Единая панель управления школой — аналитика, классы и политики в одном месте."
+      }
+    }
   }
 };

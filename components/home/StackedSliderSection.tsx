@@ -118,7 +118,7 @@ export function StackedSliderSection({
 
           <div className="slider-layout" data-slider-scroll-zone>
             <div
-              className="slider-container focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FDB022]"
+              className="slider-container focus:outline-none focus-visible:ring-2 focus-visible:ring-accent"
               aria-label={sliderAriaLabel}
               data-dots-aria-label={dotsAriaLabel}
               data-slide-aria-suffix={slideAriaSuffix}

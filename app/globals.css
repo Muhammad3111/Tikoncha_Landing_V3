@@ -1,6 +1,40 @@
 @import "tailwindcss";
 @import "../styles/legacy-from-export.css";
 
+@theme {
+  /* Brand (green) */
+  --color-brand: #4bb462;
+  --color-brand-soft: #7ce191;
+
+  /* Accent (amber) */
+  --color-accent: #fdb022;
+  --color-accent-ink: #251603;
+
+  /* Danger */
+  --color-danger: #ef4444;
+  --color-danger-soft: #ff6b6b;
+
+  /* Dark surfaces */
+  --color-surface-0: #05070d;
+  --color-surface-1: #090b10;
+  --color-surface-2: #0f141d;
+  --color-surface-3: #11141b;
+  --color-surface-4: #12161f;
+  --color-surface-5: #111318;
+
+  /* Borders */
+  --color-border-subtle: #2b2b31;
+
+  /* Muted text */
+  --color-muted: #b7bec9;
+  --color-muted-soft: #c7cdd7;
+  --color-muted-success: #d8f7df;
+  --color-muted-danger: #ffd8d8;
+
+  /* Text on colored backgrounds */
+  --color-on-brand: #0f1612;
+}
+
 html,
 body {
   margin: 0;

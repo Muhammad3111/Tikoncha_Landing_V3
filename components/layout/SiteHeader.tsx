@@ -13,7 +13,7 @@ type Props = {
   t: AppTranslations;
 };
 
-type NavKey = "issue" | "consequences" | "leadingCountries" | "about" | "blog" | "team";
+type NavKey = "issue" | "consequences" | "leadingCountries" | "about" | "blog" | "team" | "products";
 
 const TABLET_MEDIA_QUERY =
   "(max-width: 743px), (min-width: 744px) and (max-width: 1366px) and (any-pointer: coarse)";
@@ -36,6 +36,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
   const homePathWithSlash = homePath.endsWith("/") ? homePath : `${homePath}/`;
   const blogPath = localizedPath(lang, "/blog");
   const teamPath = localizedPath(lang, "/team");
+  const productsPath = localizedPath(lang, "/products");
   const phoneLink = `tel:${t.layout.footer.phone.replace(/\s+/g, "")}`;
 
   const navItems = useMemo(
@@ -61,17 +62,20 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
       },
       { key: "blog" as const, href: blogPath, label: t.layout.nav.blog, sectionId: undefined },
       { key: "team" as const, href: teamPath, label: t.layout.nav.team, sectionId: undefined },
+      { key: "products" as const, href: productsPath, label: t.layout.nav.products, sectionId: undefined },
     ],
     [
       blogPath,
       homePathWithSlash,
       teamPath,
+      productsPath,
       t.layout.nav.about,
       t.layout.nav.blog,
       t.layout.nav.consequences,
       t.layout.nav.issue,
       t.layout.nav.leadingCountries,
       t.layout.nav.team,
+      t.layout.nav.products,
     ],
   );
 
@@ -176,9 +180,15 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
       const normalizedHomePath = normalizePath(homePath);
       const normalizedBlogPath = normalizePath(blogPath);
       const normalizedTeamPath = normalizePath(teamPath);
+      const normalizedProductsPath = normalizePath(productsPath);
 
       if (currentPath === normalizedTeamPath) {
         setActiveNavKey("team");
+        return;
+      }
+
+      if (currentPath === normalizedProductsPath) {
+        setActiveNavKey("products");
         return;
       }
 
@@ -217,7 +227,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
       window.removeEventListener("hashchange", syncActiveLink);
       window.removeEventListener("popstate", syncActiveLink);
     };
-  }, [blogPath, homePath, navItems, pathname, teamPath]);
+  }, [blogPath, homePath, navItems, pathname, productsPath, teamPath]);
 
   const toggleMenu = () => {
     setMenuOpen((value) => !value);
@@ -309,6 +319,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
       data-home-path={homePath}
       data-blog-path={blogPath}
       data-team-path={teamPath}
+      data-products-path={productsPath}
       data-menu-open={menuOpen ? "true" : "false"}
       className={`sticky top-0 z-40 text-mist transition-colors duration-200${stuck ? " is-stuck" : ""}`}
     >
@@ -370,7 +381,7 @@ export function SiteHeader({ lang, routePath = "/", t }: Props) {
               </svg>
             </summary>
 
-            <ul className="absolute right-0 top-8 min-w-28 rounded-xl border border-white/15 bg-[#111318] p-1.5 shadow-xl">
+            <ul className="absolute right-0 top-8 min-w-28 rounded-xl border border-white/15 bg-surface-5 p-1.5 shadow-xl">
               {LANGUAGES.map((locale) => (
                 <li key={locale}>
                   <Link

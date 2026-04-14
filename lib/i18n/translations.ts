@@ -81,6 +81,7 @@ export type AppTranslations = {
       about: string;
       blog: string;
       team: string;
+      products: string;
     };
     footer: {
       tagline: string;
@@ -149,6 +150,25 @@ export type AppTranslations = {
     meta: PageMeta;
     heading: string;
     subtitle: string;
+  };
+  products: {
+    meta: PageMeta;
+    heading: string;
+    headingAccent: string;
+    subtitle: string;
+    adminNote: string;
+    adminNoteLinkLabel: string;
+    storeLabels: {
+      googlePlay: string;
+      appStore: string;
+      openPanel: string;
+    };
+    items: {
+      student: { title: string; description: string };
+      parent: { title: string; description: string };
+      teacher: { title: string; description: string };
+      admin: { title: string; description: string };
+    };
   };
 };
 

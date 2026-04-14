@@ -74,7 +74,7 @@ export function BlogIndexClient({
                 onClick={() => setCategory(item.key)}
                 className={`rounded-full border px-4 py-2 text-sm transition ${
                   category === item.key
-                    ? "border-[#FDB022] bg-[#FDB022]/15 text-[#FDB022]"
+                    ? "border-accent bg-accent/15 text-accent"
                     : "border-white/15 text-white/75 hover:border-white/30 hover:text-white"
                 }`}
               >
@@ -88,7 +88,7 @@ export function BlogIndexClient({
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               type="search"
-              className="h-11 w-full rounded-full border border-white/15 bg-white/[0.03] px-4 text-sm text-white placeholder:text-white/45 focus:border-[#4BB462] focus:outline-none"
+              className="h-11 w-full rounded-full border border-white/15 bg-white/[0.03] px-4 text-sm text-white placeholder:text-white/45 focus:border-brand focus:outline-none"
               placeholder={searchPlaceholder}
             />
             {query && (
@@ -126,7 +126,7 @@ export function BlogIndexClient({
               </div>
               <div className="p-4 md:p-5">
                 <div className="mb-3 flex flex-wrap items-center gap-2 text-xs text-white/60">
-                  <span className="rounded-full bg-[#4BB462]/20 px-2.5 py-1 text-[#7ce191]">{post.categoryLabel}</span>
+                  <span className="rounded-full bg-brand/20 px-2.5 py-1 text-brand-soft">{post.categoryLabel}</span>
                   <span>{formatBlogDate(lang, post.publishedAt, "short")}</span>
                   <span>{post.readMinutes} {readMinutesLabel}</span>
                 </div>
@@ -134,7 +134,7 @@ export function BlogIndexClient({
                 <h3 className="text-xl font-semibold leading-tight text-white">{post.title}</h3>
                 <p className="mt-3 max-h-[72px] overflow-hidden text-sm leading-6 text-white/75">{post.excerpt}</p>
 
-                <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#FDB022]">
+                <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-accent">
                   {readMoreLabel}
                   <svg viewBox="0 0 24 24" className="h-4 w-4 fill-none stroke-current">
                     <path d="M5 12h14M13 5l7 7-7 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

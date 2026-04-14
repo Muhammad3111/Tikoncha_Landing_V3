@@ -654,8 +654,8 @@ export function DeleteAccountForm({ lang }: Props) {
   };
 
   const toastStyleByKind: Record<ToastKind, string> = {
-    success: "border-secondary/45 bg-secondary/20 text-[#d8f7df]",
-    error: "border-[#ff6b6b]/50 bg-[#ff6b6b]/12 text-[#ffd8d8]",
+    success: "border-secondary/45 bg-secondary/20 text-muted-success",
+    error: "border-danger-soft/50 bg-danger-soft/10 text-muted-danger",
     info: "border-white/25 bg-white/10 text-white",
   };
 
@@ -682,7 +682,7 @@ export function DeleteAccountForm({ lang }: Props) {
               <label htmlFor="delete-phone" className="mb-2 block text-sm font-medium text-white/85">
                 {copy.phoneLabel}
               </label>
-              <div className="flex h-12 w-full items-center rounded-xl border border-white/15 bg-[#0f141d] focus-within:border-secondary">
+              <div className="flex h-12 w-full items-center rounded-xl border border-white/15 bg-surface-2 focus-within:border-secondary">
                 <span className="border-r border-white/15 px-3 text-sm font-semibold text-white/85 sm:px-4">
                   {UZ_PHONE_PREFIX}
                 </span>
@@ -702,7 +702,7 @@ export function DeleteAccountForm({ lang }: Props) {
                 type="button"
                 onClick={sendOtp}
                 disabled={isSending}
-                className="mt-4 inline-flex h-11 items-center justify-center rounded-xl bg-secondary px-5 text-sm font-semibold text-[#0f1612] transition-opacity disabled:cursor-not-allowed disabled:opacity-60"
+                className="mt-4 inline-flex h-11 items-center justify-center rounded-xl bg-secondary px-5 text-sm font-semibold text-on-brand transition-opacity disabled:cursor-not-allowed disabled:opacity-60"
               >
                 {isSending ? copy.sending : copy.sendOtp}
               </button>
@@ -725,7 +725,7 @@ export function DeleteAccountForm({ lang }: Props) {
 
               <div className="mt-4 flex items-center justify-between gap-3">
                 <p className="text-sm font-medium text-white/85">{copy.otpLabel}</p>
-                <p className="text-sm text-[#FDB022]">
+                <p className="text-sm text-accent">
                   {copy.timeLeftLabel}: 00:{padTime(secondsLeft)}
                 </p>
               </div>
@@ -748,7 +748,7 @@ export function DeleteAccountForm({ lang }: Props) {
                     maxLength={1}
                     type="text"
                     aria-label={`${copy.otpLabel} ${index + 1}`}
-                    className="h-12 w-full rounded-xl border border-white/15 bg-[#0f141d] text-center text-[20px] font-semibold text-white outline-none transition-colors focus:border-[#FDB022] sm:h-14 sm:text-2xl"
+                    className="h-12 w-full rounded-xl border border-white/15 bg-surface-2 text-center text-[20px] font-semibold text-white outline-none transition-colors focus:border-accent sm:h-14 sm:text-2xl"
                   />
                 ))}
               </div>
@@ -758,7 +758,7 @@ export function DeleteAccountForm({ lang }: Props) {
                   type="button"
                   onClick={verifyOtpAndPrepareDelete}
                   disabled={isProcessingOtp}
-                  className="inline-flex h-11 w-full items-center justify-center rounded-xl bg-[#FDB022] px-5 text-sm font-semibold text-[#251603] transition-opacity disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+                  className="inline-flex h-11 w-full items-center justify-center rounded-xl bg-accent px-5 text-sm font-semibold text-accent-ink transition-opacity disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
                 >
                   {isProcessingOtp ? copy.verifying : copy.verifyOtp}
                 </button>
@@ -781,7 +781,7 @@ export function DeleteAccountForm({ lang }: Props) {
                 <button
                   type="button"
                   onClick={openDeleteModal}
-                  className="inline-flex h-11 items-center justify-center rounded-xl bg-[#ef4444] px-5 text-sm font-semibold text-white transition-opacity hover:opacity-95"
+                  className="inline-flex h-11 items-center justify-center rounded-xl bg-danger px-5 text-sm font-semibold text-white transition-opacity hover:opacity-95"
                 >
                   {copy.confirmProceed}
                 </button>
@@ -800,11 +800,11 @@ export function DeleteAccountForm({ lang }: Props) {
 
       {isDeleteModalOpen && (
         <div
-          className="fixed inset-0 z-[1300] flex items-center justify-center bg-[#05070d]/75 px-4"
+          className="fixed inset-0 z-[1300] flex items-center justify-center bg-surface-0/75 px-4"
           onClick={closeDeleteModal}
         >
           <div
-            className="w-full max-w-[520px] rounded-2xl border border-white/15 bg-[#0f141d] p-5 shadow-[0_24px_60px_rgba(0,0,0,0.55)] sm:p-6"
+            className="w-full max-w-[520px] rounded-2xl border border-white/15 bg-surface-2 p-5 shadow-[0_24px_60px_rgba(0,0,0,0.55)] sm:p-6"
             onClick={(event) => event.stopPropagation()}
           >
             <h2 className="text-xl font-semibold text-white">{copy.modalTitle}</h2>
@@ -829,7 +829,7 @@ export function DeleteAccountForm({ lang }: Props) {
             )}
 
             <p className="mt-4 text-sm leading-6 text-white/75">{copy.modalDescription}</p>
-            <p className="mt-2 text-sm font-semibold text-[#FDB022]">{copy.modalKeywordHint}</p>
+            <p className="mt-2 text-sm font-semibold text-accent">{copy.modalKeywordHint}</p>
 
             <label htmlFor="delete-confirm-word" className="mt-4 block text-sm font-medium text-white/85">
               {copy.modalKeywordLabel}
@@ -840,7 +840,7 @@ export function DeleteAccountForm({ lang }: Props) {
               value={deleteConfirmInput}
               onChange={(event) => setDeleteConfirmInput(event.target.value)}
               placeholder={copy.modalKeywordPlaceholder}
-              className="mt-2 h-12 w-full rounded-xl border border-white/15 bg-[#0a1018] px-4 text-white placeholder:text-white/35 focus:border-[#FDB022] focus:outline-none"
+              className="mt-2 h-12 w-full rounded-xl border border-white/15 bg-surface-1 px-4 text-white placeholder:text-white/35 focus:border-accent focus:outline-none"
             />
 
             <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:justify-end">
@@ -856,7 +856,7 @@ export function DeleteAccountForm({ lang }: Props) {
                 type="button"
                 onClick={confirmAndDeleteAccount}
                 disabled={!isDeleteWordMatched || isDeleting}
-                className="inline-flex h-11 items-center justify-center rounded-xl bg-[#ef4444] px-5 text-sm font-semibold text-white transition-opacity disabled:cursor-not-allowed disabled:opacity-50"
+                className="inline-flex h-11 items-center justify-center rounded-xl bg-danger px-5 text-sm font-semibold text-white transition-opacity disabled:cursor-not-allowed disabled:opacity-50"
               >
                 {isDeleting ? copy.deleting : copy.modalConfirm}
               </button>

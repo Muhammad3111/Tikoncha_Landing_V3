@@ -8,10 +8,11 @@ export const enTranslations: AppTranslations = {
     "nav": {
       "issue": "Problem",
       "consequences": "Consequences",
-      "leadingCountries": "Leading countries",
-      "about": "About Tikoncha",
+      "leadingCountries": "International experience",
+      "about": "Tikoncha",
       "blog": "Blog",
-      "team": "Our team"
+      "team": "Our team",
+      "products": "Apps"
     },
     "footer": {
       "tagline": "A trusted partner for next-generation education and digital safety.",
@@ -453,5 +454,40 @@ export const enTranslations: AppTranslations = {
     },
     "heading": "Our team",
     "subtitle": "Our strength is unity and experience."
+  },
+  "products": {
+    "meta": {
+      "title": "Apps - Tikoncha",
+      "description": "Tikoncha apps and the school admin panel: Main, Parent, Teacher, and School. Google Play, App Store links and admin panel access.",
+      "keywords": "tikoncha apps, tikoncha main app, tikoncha parent, tikoncha teacher, school admin panel, tikoncha products"
+    },
+    "heading": "Tikoncha",
+    "headingAccent": "apps",
+    "subtitle": "The Main app is for everyone. Parent and Teacher apps fit your role, and the school panel is for school administrators.",
+    "adminNote": "Get credentials on Telegram",
+    "adminNoteLinkLabel": "@tikoncha_admin",
+    "storeLabels": {
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "openPanel": "Open panel"
+    },
+    "items": {
+      "student": {
+        "title": "Main app",
+        "description": "A healthy balance with technology — don't let life slip by behind a screen."
+      },
+      "parent": {
+        "title": "Parent app",
+        "description": "Screen-time limits, app blocking, and detailed daily activity reports for parents."
+      },
+      "teacher": {
+        "title": "Teacher app",
+        "description": "Classroom management, assignments, and student engagement insights."
+      },
+      "admin": {
+        "title": "School admin",
+        "description": "School-wide dashboard — analytics, classes, and policies in one place."
+      }
+    }
   }
 };

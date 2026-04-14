@@ -9,10 +9,11 @@ export const uzTranslations: AppTranslations = {
         nav: {
             issue: "Muammo",
             consequences: "Oqibatlar",
-            leadingCountries: "Yetakchi mamlakatlar",
-            about: "Tikoncha haqida",
+            leadingCountries: "Xalqaro tajriba",
+            about: "Tikoncha",
             blog: "Blog",
             team: "Jamoamiz",
+            products: "Ilovalar",
         },
         footer: {
             tagline:
@@ -505,5 +506,47 @@ export const uzTranslations: AppTranslations = {
         },
         heading: "Jamoamiz",
         subtitle: "Bizning kuchimiz — birlikda va tajribada.",
+    },
+    products: {
+        meta: {
+            title: "Ilovalar - Tikoncha",
+            description:
+                "Tikoncha ilovalari va maktab admin paneli: Asosiy, Ota-ona, Ustoz va Maktab. Play Market, App Store havolalari va admin panel kirish.",
+            keywords:
+                "tikoncha ilovalari, tikoncha asosiy ilova, tikoncha ota-ona ilovasi, tikoncha ustoz, maktab admin paneli, tikoncha mahsulotlar",
+        },
+        heading: "Tikoncha",
+        headingAccent: "ilovalari",
+        subtitle:
+            "Asosiy ilovani barcha foydalanuvchilar ishlatadi. Ota-ona va Ustoz ilovalari o'z rolingizga mos, maktab paneli esa maktab administratori uchun.",
+        adminNote: "Login ma'lumotlari uchun Telegramda",
+        adminNoteLinkLabel: "@tikoncha_admin",
+        storeLabels: {
+            googlePlay: "Google Play",
+            appStore: "App Store",
+            openPanel: "Panelni ochish",
+        },
+        items: {
+            student: {
+                title: "Asosiy ilova",
+                description:
+                    "Texnologiya bilan sog'lom muvozanat — hayotingiz ekran ortida qolib ketmasin.",
+            },
+            parent: {
+                title: "Ota-ona ilovasi",
+                description:
+                    "Ota-onalar uchun ekran vaqti limiti, ilovalarni bloklash va kunlik faoliyat hisobotlari.",
+            },
+            teacher: {
+                title: "Ustoz ilovasi",
+                description:
+                    "O'qituvchilar uchun sinf boshqaruvi, vazifalar va o'quvchilar faoliyati statistikasi.",
+            },
+            admin: {
+                title: "Maktab admini",
+                description:
+                    "Maktab uchun yagona boshqaruv paneli — analitika, sinflar va siyosatlar bitta joyda.",
+            },
+        },
     },
 };
