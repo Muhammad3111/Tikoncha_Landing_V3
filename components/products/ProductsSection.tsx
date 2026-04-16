@@ -37,7 +37,7 @@ const InfoIcon = () => (
 );
 
 const STORE_BUTTON_CLASS =
-  "inline-flex h-[44px] shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-[32px] bg-[rgba(255,255,255,0.2)] pl-4 pr-6 py-2.5 text-[14px] font-medium leading-[18px] text-white transition-colors duration-200 hover:bg-[rgba(255,255,255,0.28)]";
+  "inline-flex h-[40px] sm:h-[44px] shrink-0 items-center justify-center gap-1.5 sm:gap-2 whitespace-nowrap rounded-[32px] bg-[rgba(255,255,255,0.2)] pl-3 pr-4 sm:pl-4 sm:pr-6 py-2 sm:py-2.5 text-[12px] sm:text-[14px] font-medium leading-[18px] text-white transition-colors duration-200 hover:bg-[rgba(255,255,255,0.28)]";
 
 type StoreButtonProps = {
   href: string;
@@ -172,7 +172,7 @@ export function ProductsSection({ lang }: Props) {
 
             <p className="mt-4 text-sm leading-6 text-white/70 sm:text-[15px]">{card.description}</p>
 
-            <div className="mt-6 flex flex-wrap gap-2.5">{card.buttons}</div>
+            <div className="mt-6 flex flex-nowrap gap-2 sm:gap-2.5">{card.buttons}</div>
 
             {card.footer}
           </article>
