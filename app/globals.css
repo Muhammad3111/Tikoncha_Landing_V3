@@ -1,6 +1,35 @@
 @import "tailwindcss";
-@import "../styles/legacy-from-export.css";
 
+/* Section styles — each file is scoped to a specific component */
+@import "../styles/sections/about.css";
+@import "../styles/sections/hero.css";
+@import "../styles/sections/how-work.css";
+@import "../styles/sections/site-footer.css";
+@import "../styles/sections/site-header.css";
+@import "../styles/sections/stacked-slider.css";
+@import "../styles/sections/team.css";
+
+/* ─── Design tokens ─── */
+
+:root {
+  /* Typography */
+  --font-brand: "Golos Text";
+  --font-sans: var(--font-brand), ui-sans-serif, system-ui, sans-serif;
+
+  /* Legacy RGB-triple tokens (support rgb(var() / alpha) pattern) */
+  --color-ink: 11 12 16;
+  --color-mist: 247 244 239;
+  --color-clay: 215 197 176;
+  --color-tide: 18 93 93;
+  --color-primary: 11 13 12;
+  --color-secondary: 75 180 98;
+  --color-cursor-trail: var(--color-secondary);
+  --color-page-bg: var(--color-mist);
+
+  color-scheme: dark light;
+}
+
+/* Tailwind v4 theme tokens (generate utility classes like bg-brand, text-accent) */
 @theme {
   /* Brand (green) */
   --color-brand: #4bb462;
@@ -35,10 +64,33 @@
   --color-on-brand: #0f1612;
 }
 
+/* ─── Base element styles ─── */
+
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background-color: rgb(var(--color-page-bg));
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
 }
 
 *,
@@ -47,8 +99,9 @@ body {
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100vh;
+::selection {
+  background: rgb(var(--color-tide));
+  color: white;
 }
 
 .skip-to-content {

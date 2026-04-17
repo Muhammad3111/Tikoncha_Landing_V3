@@ -292,5 +292,11 @@ export function CursorTrail() {
     };
   }, []);
 
-  return <canvas id="cursor-trail-canvas" aria-hidden="true"></canvas>;
+  return (
+    <canvas
+      id="cursor-trail-canvas"
+      aria-hidden="true"
+      className="pointer-events-none fixed inset-0 z-[120] max-[743px]:hidden [@media(pointer:coarse)]:hidden"
+    ></canvas>
+  );
 }

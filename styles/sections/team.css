@@ -1,0 +1,208 @@
+/* ═══ TeamSection ═══ */
+
+
+  .team-section {
+    padding: 40px 0 0;
+    color: #fff;
+  }
+
+  .team-section__title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .team-section__title {
+    margin: 0;
+    font-family: "Golos Text", sans-serif;
+    font-size: clamp(40px, 4vw, 48px);
+    line-height: 1.04;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+  }
+
+  .team-section__underline {
+    width: min(320px, calc(100vw - 52px));
+    height: auto;
+    margin-top: -10px;
+    user-select: none;
+  }
+
+  .team-section__subtitle {
+    margin: 0;
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+  }
+
+  .team-section__grid {
+    margin: 32px 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .team-section__rails {
+    display: none;
+  }
+
+  .team-card {
+    min-height: 200px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    padding: 14px 16px;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+  }
+
+  .team-card__avatar-wrap {
+    width: 84px;
+    height: 84px;
+    border-radius: 999px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .team-card__avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform-origin: center;
+    image-rendering: auto;
+  }
+
+  .team-card__avatar--offset-down {
+    transform: scale(1.12);
+    object-position: 50% 58%;
+  }
+
+  .team-card__copy {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .team-card__name {
+    margin: 0;
+    font-family: "Golos Text", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0;
+  }
+
+  .team-card__role {
+    margin: 0;
+    font-family: "Golos Text", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #4bb462;
+    letter-spacing: 0;
+  }
+
+  @media (max-width: 1220px) {
+    .team-section__grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 744px) and (max-width: 1366px) and (any-pointer: coarse) {
+    .team-section {
+      padding-top: 32px;
+    }
+
+    .team-section__grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 743px) {
+    .team-section {
+      margin-top: 80px;
+      padding-top: 0;
+    }
+
+    .team-section__title {
+      font-size: 36px;
+      line-height: 43px;
+    }
+
+    .team-section__underline {
+      width: 203px;
+      margin-top: -8px;
+    }
+
+    .team-section__subtitle {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .team-section__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .team-section__rails {
+      display: none;
+    }
+
+    .team-section__rail {
+      display: flex;
+      gap: 8px;
+      width: max-content;
+    }
+
+    .team-section__rail--top {
+      transform: translateX(-1155px);
+    }
+
+    .team-section__rail--bottom {
+      transform: translateX(-1021px);
+    }
+
+    .team-card--rail {
+      width: 260px;
+      min-height: 180px;
+      height: 180px;
+      border-radius: 24px;
+      padding: 13px 18px;
+      justify-content: flex-start;
+      gap: 22px;
+    }
+
+    .team-card--rail .team-card__avatar-wrap {
+      margin: 0 auto;
+    }
+
+    .team-card--rail .team-card__copy {
+      gap: 8px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .team-section__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .team-section__grid .team-card {
+      min-height: 188px;
+    }
+  }

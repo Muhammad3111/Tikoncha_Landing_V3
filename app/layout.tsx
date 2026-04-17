@@ -5,7 +5,7 @@ import { siteData } from "@/lib/site-data";
 
 const golos = Golos_Text({
   subsets: ["latin", "cyrillic"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-brand",
   display: "swap",
 });

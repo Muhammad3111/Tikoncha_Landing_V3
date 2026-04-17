@@ -1,0 +1,318 @@
+/* ═══ Hero ═══ */
+
+
+  .hero-actions button {
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .video-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1600;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+  }
+
+  .video-modal[hidden] {
+    display: none;
+  }
+
+  .video-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(6, 8, 12, 0.78);
+    backdrop-filter: blur(4px);
+  }
+
+  .video-modal__dialog {
+    position: relative;
+    z-index: 1;
+    width: min(960px, calc(100vw - 32px));
+    border-radius: 20px;
+    overflow: hidden;
+    background: #0d1018;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.52);
+  }
+
+  .video-modal__player {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    display: block;
+    background: #000;
+  }
+
+  .video-modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    width: 38px;
+    height: 38px;
+    border: 0;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background-color 160ms ease;
+  }
+
+  .video-modal__close:hover {
+    background: rgba(0, 0, 0, 0.72);
+  }
+
+  .video-modal__close:focus-visible {
+    background: rgba(0, 0, 0, 0.72);
+    outline: 2px solid rgb(var(--color-secondary));
+    outline-offset: 2px;
+  }
+
+  .video-modal__close svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+  }
+
+  body.video-modal-open {
+    overflow: hidden;
+  }
+
+  @media (max-width: 743px) {
+    [data-hero-root] {
+      padding-top: 0;
+      padding-bottom: 80px;
+    }
+
+    .hero-shell {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .hero-copy {
+      display: contents;
+    }
+
+    .hero-chip {
+      order: 1;
+      margin: 12px auto 0;
+      min-height: 32px;
+      padding: 8px 10px;
+      gap: 4px;
+      border-radius: 24px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .hero-chip img {
+      width: 16px;
+      height: 16px;
+    }
+
+    .hero-copy .space-y-4 {
+      order: 2;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .hero-title {
+      max-width: 362px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 36px;
+      line-height: 1;
+    }
+
+    .hero-subtitle {
+      max-width: 362px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .hero-image {
+      order: 3;
+      width: 100%;
+      max-width: 362px;
+      height: 296px;
+      margin-top: 6px;
+    }
+
+    .hero-image > div {
+      border-radius: 32px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(1) {
+      left: 10.8%;
+      top: -2.1%;
+      width: 50px;
+      height: 50px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(2) {
+      right: 13.8%;
+      top: 3.8%;
+      width: 35px;
+      height: 35px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(3) {
+      right: 3.6%;
+      top: 41%;
+      width: 45px;
+      height: 46px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(4) {
+      right: 18.8%;
+      bottom: 1.5%;
+      width: 59px;
+      height: 59px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(5) {
+      left: 12.2%;
+      bottom: 0.2%;
+      width: 53px;
+      height: 54px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(6) {
+      left: 6.2%;
+      top: 43.8%;
+      width: 35px;
+      height: 35px;
+    }
+
+    .hero-actions {
+      order: 4;
+      width: 100%;
+      max-width: 362px;
+      margin: 8px auto 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .hero-actions > :is(a, button) {
+      width: 100%;
+      padding: 10px 12px;
+    }
+
+    .hero-actions > :is(a, button):nth-child(3) {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (min-width: 744px) and (max-width: 1366px) and (any-pointer: coarse) {
+    [data-hero-root] {
+      padding-top: 0;
+      padding-bottom: 120px;
+    }
+
+    .hero-shell {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .hero-copy {
+      min-height: 388px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 32px;
+    }
+
+    .hero-copy .space-y-4 {
+      width: 100%;
+    }
+
+    .hero-chip {
+      margin-top: 16px;
+    }
+
+    .hero-title {
+      max-width: 704px;
+      margin: 0 auto;
+      font-size: 62px;
+      line-height: 1;
+    }
+
+    .hero-subtitle {
+      max-width: 704px;
+      margin: 0 auto;
+      font-size: 20px;
+      line-height: 1.8;
+      letter-spacing: 0.015em;
+    }
+
+    .hero-actions {
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 12px;
+    }
+
+    .hero-image {
+      width: 100%;
+      max-width: 704px;
+      height: 566px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(1) {
+      left: 11.5%;
+      top: -2.3%;
+      width: 97px;
+      height: 98px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(2) {
+      right: 13.5%;
+      top: 0;
+      width: 67px;
+      height: 67px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(3) {
+      right: 0.4%;
+      top: 39.9%;
+      width: 88px;
+      height: 88px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(4) {
+      right: 7.4%;
+      bottom: -2.4%;
+      width: 114px;
+      height: 114px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(5) {
+      left: 9.5%;
+      bottom: -2.8%;
+      width: 103px;
+      height: 103px;
+    }
+
+    .hero-image > img[data-hero-social]:nth-of-type(6) {
+      left: 5.6%;
+      top: 41.9%;
+      width: 67px;
+      height: 67px;
+    }
+  }
+
+

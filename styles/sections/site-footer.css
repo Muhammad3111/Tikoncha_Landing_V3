@@ -1,0 +1,305 @@
+/* ═══ SiteFooter ═══ */
+
+
+  .site-footer {
+    margin-top: 64px;
+    background: #090b10;
+    border-top: 1px solid #2b2b31;
+  }
+
+  .site-footer__top {
+    min-height: 270px;
+    padding: 35px 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 160px 194px;
+    column-gap: 24px;
+    border-bottom: 1px solid #2b2b31;
+  }
+
+  .site-footer__brand {
+    max-width: 263px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-footer__logo-link {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .site-footer__logo {
+    width: auto;
+    height: 41px;
+  }
+
+  .site-footer__tagline {
+    margin: 24px 0 0;
+    color: #dcdddf;
+    font-family: "Golos Text", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+  }
+
+  .site-footer__socials {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .site-footer__social-link {
+    width: 56px;
+    height: 44px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+      background-color 180ms ease,
+      transform 180ms ease;
+  }
+
+  .site-footer__social-link img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .site-footer__social-link:hover {
+    background: rgba(255, 255, 255, 0.18);
+    transform: translateY(-1px);
+  }
+
+  .site-footer__social-link:focus-visible {
+    background: rgba(255, 255, 255, 0.18);
+    transform: translateY(-1px);
+    outline: 2px solid rgb(var(--color-secondary));
+    outline-offset: 2px;
+  }
+
+  .site-footer__section {
+    width: 100%;
+  }
+
+  .site-footer__heading {
+    margin: 0;
+    color: #fff;
+    font-family: "Golos Text", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .site-footer__list {
+    margin: 24px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .site-footer__section--company .site-footer__list {
+    gap: 20px;
+  }
+
+  .site-footer__link {
+    color: #dcdddf;
+    text-decoration: none;
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    transition: color 160ms ease;
+  }
+
+  .site-footer__link:hover {
+    color: rgb(var(--color-secondary));
+  }
+
+  .site-footer__link:focus-visible {
+    color: rgb(var(--color-secondary));
+    outline: 2px solid rgb(var(--color-secondary));
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  .site-footer__list--contact {
+    gap: 18px;
+  }
+
+  .site-footer__contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #dcdddf;
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .site-footer__contact-item img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  .site-footer__bottom {
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    color: #dcdddf;
+    font-family: "Golos Text", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+  }
+
+  .site-footer__bottom p {
+    margin: 0;
+  }
+
+  .site-footer__bottom-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .site-footer__bottom-links .site-footer__link {
+    font-size: 12px;
+    line-height: 14px;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 1100px) {
+    .site-footer__top {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      row-gap: 28px;
+      column-gap: 40px;
+    }
+
+    .site-footer__brand {
+      max-width: 320px;
+      grid-column: 1 / -1;
+    }
+
+    .site-footer__section--company,
+    .site-footer__section--contact {
+      grid-column: span 1;
+    }
+
+    .site-footer__socials {
+      margin-top: 24px;
+    }
+  }
+
+  @media (min-width: 744px) and (max-width: 1366px) and (any-pointer: coarse) {
+    .site-footer__top {
+      min-height: 420px;
+      padding: 35px 0 24px;
+      grid-template-columns: 250px;
+      grid-template-rows: auto 1fr;
+      column-gap: 60px;
+      row-gap: 64px;
+      justify-content: flex-start;
+    }
+
+    .site-footer__brand {
+      grid-column: 1 / -1;
+      max-width: 263px;
+    }
+
+    .site-footer__socials {
+      margin-top: 34px;
+    }
+
+    .site-footer__bottom {
+      min-height: 64px;
+      padding: 0;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  @media (max-width: 743px) {
+    .site-footer {
+      margin-top: 80px;
+      width: 354px;
+      max-width: 100%;
+    }
+
+    .site-footer__top {
+      min-height: 465px;
+      padding: 35px 0 24px;
+      grid-template-columns: 160px 194px;
+      grid-template-areas:
+        "brand brand"
+        "company contact";
+      row-gap: 32px;
+      column-gap: 0;
+      align-content: start;
+    }
+
+    .site-footer__brand {
+      max-width: 263px;
+      grid-area: brand;
+    }
+
+    .site-footer__tagline {
+      max-width: 263px;
+      margin-top: 24px;
+    }
+
+    .site-footer__socials {
+      margin-top: 24px;
+    }
+
+    .site-footer__section--company {
+      grid-area: company;
+    }
+
+    .site-footer__section--contact {
+      grid-area: contact;
+    }
+
+    .site-footer__heading {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .site-footer__list {
+      margin-top: 24px;
+      gap: 20px;
+    }
+
+    .site-footer__contact-item {
+      align-items: flex-start;
+    }
+
+    .site-footer__bottom {
+      min-height: 64px;
+      padding: 0;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 0;
+    }
+
+    .site-footer__bottom {
+      flex-direction: column;
+      gap: 12px;
+      padding: 16px 0;
+    }
+
+    .site-footer__bottom-links {
+      display: flex;
+      gap: 16px;
+    }
+  }
+
+

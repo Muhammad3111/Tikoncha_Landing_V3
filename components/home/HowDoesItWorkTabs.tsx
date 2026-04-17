@@ -55,7 +55,7 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
   const prevActiveIndexRef = useRef(0);
   const firstAnimationRenderRef = useRef(true);
   const panelsRef = useRef<Array<HTMLDivElement | null>>([]);
-  const gifsRef = useRef<Array<HTMLImageElement | null>>([]);
+  const gifsRef = useRef<Array<HTMLVideoElement | null>>([]);
   const tabsRef = useRef<Array<HTMLButtonElement | null>>([]);
   const stepRef = useRef<HTMLParagraphElement | null>(null);
   const layoutRef = useRef<HTMLDivElement | null>(null);
@@ -726,21 +726,33 @@ export function HowDoesItWorkTabs({ lang, sectionId = "how-does-it-work" }: Prop
 
               <div className="how-work-phone" aria-live="polite">
                 <div className="how-work-screen" aria-hidden="true">
-                  {tabs.map((tab, index) => (
-                    <img
-                      key={`${tab.label}-gif`}
-                      ref={(node) => {
-                        gifsRef.current[index] = node;
-                      }}
-                      src={Math.abs(index - activeIndex) <= 1 ? tab.gifUrl : undefined}
-                      alt={tab.gifAlt}
-                      loading={index === activeIndex ? "eager" : "lazy"}
-                      decoding="async"
-                      fetchPriority={index === activeIndex ? "high" : "low"}
-                      className={`how-work-gif ${index === activeIndex ? "is-active" : ""}`}
-                      data-how-gif
-                    />
-                  ))}
+                  {tabs.map((tab, index) => {
+                    const shouldLoad = Math.abs(index - activeIndex) <= 1;
+                    const base = tab.gifUrl.replace(/\.gif$/i, "");
+                    return (
+                      <video
+                        key={`${tab.label}-gif`}
+                        ref={(node) => {
+                          gifsRef.current[index] = node;
+                        }}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        preload={index === activeIndex ? "auto" : "none"}
+                        aria-label={tab.gifAlt}
+                        className={`how-work-gif ${index === activeIndex ? "is-active" : ""}`}
+                        data-how-gif
+                      >
+                        {shouldLoad && (
+                          <>
+                            <source src={`${base}.webm`} type="video/webm" />
+                            <source src={`${base}.mp4`} type="video/mp4" />
+                          </>
+                        )}
+                      </video>
+                    );
+                  })}
                 </div>
 
                 <img src={siteData.images.howDoesItWork.mockup} alt="" className="how-work-mockup" aria-hidden="true" />

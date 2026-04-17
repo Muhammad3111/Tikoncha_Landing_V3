@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "sync:export-css": "node scripts/generate-export-css.mjs",
-    "dev": "npm run sync:export-css && next dev",
-    "build": "npm run sync:export-css && next build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },

@@ -24,6 +24,7 @@ export function Hero({ lang, t, sectionId = "hero" }: Props) {
     if (!heroRoot) return;
 
     let fallbackTimer: ReturnType<typeof setTimeout> | undefined;
+    const floatTweens: gsap.core.Tween[] = [];
     const context = gsap.context(() => {
       const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       const chip = heroRoot.querySelector<HTMLElement>("[data-hero-chip]");
@@ -40,22 +41,24 @@ export function Hero({ lang, t, sectionId = "hero" }: Props) {
           const moveX = 8 + (index % 3) * 2;
           const duration = 1.45 + (index % 3) * 0.22;
 
-          gsap.to(icon, {
-            y: -moveY * direction,
-            duration,
-            ease: "sine.inOut",
-            repeat: -1,
-            yoyo: true,
-            delay: index * 0.08,
-          });
-          gsap.to(icon, {
-            x: moveX * direction,
-            duration: duration * 1.35,
-            ease: "sine.inOut",
-            repeat: -1,
-            yoyo: true,
-            delay: index * 0.05,
-          });
+          floatTweens.push(
+            gsap.to(icon, {
+              y: -moveY * direction,
+              duration,
+              ease: "sine.inOut",
+              repeat: -1,
+              yoyo: true,
+              delay: index * 0.08,
+            }),
+            gsap.to(icon, {
+              x: moveX * direction,
+              duration: duration * 1.35,
+              ease: "sine.inOut",
+              repeat: -1,
+              yoyo: true,
+              delay: index * 0.05,
+            }),
+          );
         });
       };
 
@@ -84,10 +87,23 @@ export function Hero({ lang, t, sectionId = "hero" }: Props) {
       }, 1400);
     }, heroRoot);
 
+    const visibilityObserver = new IntersectionObserver(
+      ([entry]) => {
+        const visible = entry?.isIntersecting ?? false;
+        floatTweens.forEach((tween) => {
+          if (visible) tween.play();
+          else tween.pause();
+        });
+      },
+      { threshold: 0, rootMargin: "100px" },
+    );
+    visibilityObserver.observe(heroRoot);
+
     return () => {
       if (fallbackTimer) {
         clearTimeout(fallbackTimer);
       }
+      visibilityObserver.disconnect();
       context.revert();
     };
   }, [lang]);
@@ -97,6 +113,7 @@ export function Hero({ lang, t, sectionId = "hero" }: Props) {
 
   return (
     <>
+      <link rel="preload" as="image" href={siteData.images.hero.image} fetchPriority="high" />
       <section
         id={sectionId}
         ref={rootRef}
