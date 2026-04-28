@@ -66,7 +66,7 @@ export function LeadForm({ t }: Props) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: name.trim(),
-          phone: `${PHONE_PREFIX}${phone.replace(/\D/g, "")}`,
+          phone: phone.replace(/\D/g, ""),
           source: SOURCE,
         }),
       });
