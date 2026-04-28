@@ -24,9 +24,9 @@
   --color-primary: 11 13 12;
   --color-secondary: 75 180 98;
   --color-cursor-trail: var(--color-secondary);
-  --color-page-bg: var(--color-mist);
+  --color-page-bg: 18 18 18;
 
-  color-scheme: dark light;
+  color-scheme: dark;
 }
 
 /* Tailwind v4 theme tokens (generate utility classes like bg-brand, text-accent) */
@@ -76,12 +76,14 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  background-color: rgb(var(--color-page-bg));
 }
 
 body {
   min-height: 100vh;
   font-family: var(--font-sans);
   background-color: rgb(var(--color-page-bg));
+  color: rgb(var(--color-mist));
   scrollbar-width: none;
   -ms-overflow-style: none;
 }

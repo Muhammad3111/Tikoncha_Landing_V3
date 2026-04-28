@@ -528,9 +528,9 @@ export const uzTranslations: AppTranslations = {
         },
         items: {
             student: {
-                title: "Asosiy ilova",
+                title: "Tikoncha asosiy ilova",
                 description:
-                    "Texnologiya bilan sog'lom muvozanat — hayotingiz ekran ortida qolib ketmasin.",
+                    "Ekran vaqtini nazorat qiling, qurilmalar maqsadlaringizga erishishga to'sqinlik qilmasin.",
             },
             parent: {
                 title: "Ota-ona ilovasi",
@@ -547,6 +547,36 @@ export const uzTranslations: AppTranslations = {
                 description:
                     "Maktab uchun yagona boshqaruv paneli — analitika, sinflar va siyosatlar bitta joyda.",
             },
+        },
+    },
+    landing: {
+        meta: {
+            title: "Tikoncha — sizga maxsus taklif",
+            description:
+                "Ma'lumotlaringizni qoldiring — biz siz bilan bog'lanamiz va Tikoncha haqida batafsil aytib beramiz.",
+        },
+        hero: {
+            chipLabel: "Tikoncha",
+            title: "Bog'lanish uchun",
+            titleAccent: "",
+            subtitle:
+                "Ma'lumotlaringizni qoldiring, siz bilan qisqa muddatda bog'lanamiz.",
+        },
+        form: {
+            nameLabel: "Ism",
+            namePlaceholder: "Ismingizni kiriting",
+            nameError: "Ismingizni kiriting (kamida 2 belgi)",
+            phoneLabel: "Telefon raqami",
+            phonePlaceholder: "XX XXX XX XX",
+            phoneError: "To'g'ri telefon raqamini kiriting (9 raqam)",
+            submitLabel: "Yuborish",
+            submittingLabel: "Yuborilmoqda...",
+            successTitle: "Rahmat!",
+            successText:
+                "Ma'lumotlaringiz qabul qilindi. Tez orada siz bilan bog'lanamiz.",
+            errorTitle: "Xatolik yuz berdi",
+            errorText:
+                "Xabarni yuborib bo'lmadi. Iltimos, biroz vaqt o'tib qayta urining.",
         },
     },
 };

@@ -144,14 +144,10 @@ export function ProductsSection({ lang }: Props) {
 
   return (
     <section className="pb-16 pt-10 text-mist lg:pb-24 lg:pt-14">
-      <header className="mx-auto max-w-[860px] text-center">
-        <h1 className="text-[34px] font-bold leading-[1.1] text-white sm:text-[44px]">
-          {t.heading} <span className="text-secondary">{t.headingAccent}</span>
-        </h1>
-        <p className="mt-4 text-base leading-7 text-white/75 sm:text-[18px]">{t.subtitle}</p>
-      </header>
-
-      <div className="mx-auto mt-10 grid w-full max-w-[1040px] gap-6 sm:mt-12 md:grid-cols-2">
+      <h1 className="sr-only">
+        {t.heading} {t.headingAccent}
+      </h1>
+      <div className="mx-auto grid w-full max-w-[1040px] gap-6 md:grid-cols-2">
         {cards.map((card) => (
           <article
             key={card.key}

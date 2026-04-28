@@ -473,8 +473,8 @@ export const enTranslations: AppTranslations = {
     },
     "items": {
       "student": {
-        "title": "Main app",
-        "description": "A healthy balance with technology — don't let life slip by behind a screen."
+        "title": "Tikoncha main app",
+        "description": "Take control of your screen time — don't let devices get in the way of your goals."
       },
       "parent": {
         "title": "Parent app",
@@ -488,6 +488,32 @@ export const enTranslations: AppTranslations = {
         "title": "School admin",
         "description": "School-wide dashboard — analytics, classes, and policies in one place."
       }
+    }
+  },
+  "landing": {
+    "meta": {
+      "title": "Tikoncha — exclusive offer",
+      "description": "Leave your contact details — we'll get in touch and tell you more about Tikoncha."
+    },
+    "hero": {
+      "chipLabel": "Tikoncha",
+      "title": "Get in touch",
+      "titleAccent": "",
+      "subtitle": "Leave your details and we'll be in touch shortly."
+    },
+    "form": {
+      "nameLabel": "First name",
+      "namePlaceholder": "Enter your first name",
+      "nameError": "Enter your first name (at least 2 characters)",
+      "phoneLabel": "Phone number",
+      "phonePlaceholder": "XX XXX XX XX",
+      "phoneError": "Enter a valid phone number (9 digits)",
+      "submitLabel": "Submit",
+      "submittingLabel": "Submitting...",
+      "successTitle": "Thank you!",
+      "successText": "We've received your details. We'll be in touch soon.",
+      "errorTitle": "Something went wrong",
+      "errorText": "We couldn't send your message. Please try again in a moment."
     }
   }
 };

@@ -44,15 +44,15 @@ const imageUsage: Record<string, SectionImageUsage> = {
             },
             {
                 variable: "facebookIconUrl",
-                importPath: "../assets/images/herosection/Facebook.svg?url",
+                importPath: "../assets/images/herosection/Facebook.webp?url",
             },
             {
                 variable: "guaranteedIconUrl",
-                importPath: "../assets/images/herosection/guaranteed.svg?url",
+                importPath: "../assets/images/herosection/guaranteed.webp?url",
             },
             {
                 variable: "instagramIconUrl",
-                importPath: "../assets/images/herosection/Instagram.svg?url",
+                importPath: "../assets/images/herosection/Instagram.webp?url",
             },
             {
                 variable: "playMarketIconUrl",
@@ -60,23 +60,23 @@ const imageUsage: Record<string, SectionImageUsage> = {
             },
             {
                 variable: "playIconUrl",
-                importPath: "../assets/images/herosection/play.svg?url",
+                importPath: "../assets/images/herosection/play.webp?url",
             },
             {
                 variable: "snapchatIconUrl",
-                importPath: "../assets/images/herosection/Snapchat.svg?url",
+                importPath: "../assets/images/herosection/Snapchat.webp?url",
             },
             {
                 variable: "tikTokIconUrl",
-                importPath: "../assets/images/herosection/TikTok.svg?url",
+                importPath: "../assets/images/herosection/TikTok.webp?url",
             },
             {
                 variable: "twitchIconUrl",
-                importPath: "../assets/images/herosection/Twitch.svg?url",
+                importPath: "../assets/images/herosection/Twitch.webp?url",
             },
             {
                 variable: "youtubeIconUrl",
-                importPath: "../assets/images/herosection/Youtube.svg?url",
+                importPath: "../assets/images/herosection/Youtube.webp?url",
             },
         ],
     },
@@ -374,7 +374,7 @@ const imageUsage: Record<string, SectionImageUsage> = {
             },
             {
                 variable: "playIconUrl",
-                importPath: "../assets/images/herosection/play.svg?url",
+                importPath: "../assets/images/herosection/play.webp?url",
             },
             {
                 variable: "playMarketIconUrl",

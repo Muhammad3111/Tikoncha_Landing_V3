@@ -36,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uz" suppressHydrationWarning>
-      <body suppressHydrationWarning className={`${golos.variable} font-sans text-ink`}>
+      <body suppressHydrationWarning className={`${golos.variable} font-sans text-mist`}>
         {children}
       </body>
     </html>

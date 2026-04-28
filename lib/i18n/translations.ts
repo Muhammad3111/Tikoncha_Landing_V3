@@ -170,6 +170,29 @@ export type AppTranslations = {
       admin: { title: string; description: string };
     };
   };
+  landing: {
+    meta: PageMeta;
+    hero: {
+      chipLabel: string;
+      title: string;
+      titleAccent: string;
+      subtitle: string;
+    };
+    form: {
+      nameLabel: string;
+      namePlaceholder: string;
+      nameError: string;
+      phoneLabel: string;
+      phonePlaceholder: string;
+      phoneError: string;
+      submitLabel: string;
+      submittingLabel: string;
+      successTitle: string;
+      successText: string;
+      errorTitle: string;
+      errorText: string;
+    };
+  };
 };
 
 import { uzTranslations } from "./translations/uz";

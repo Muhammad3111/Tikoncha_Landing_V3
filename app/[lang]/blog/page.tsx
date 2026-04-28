@@ -38,7 +38,7 @@ export default async function LocalizedBlogPage({
           <div>
             <span className="hero-chip flex w-fit items-center gap-1.5 rounded-[24px] bg-white/10 px-2.5 py-2 text-sm font-normal leading-[18px] text-white/95 mx-auto md:mx-0">
               <img
-                src="/images/blog/newspaper.png"
+                src="/images/blog/newspaper.webp"
                 alt=""
                 className="size-5"
                 width="20"
@@ -60,7 +60,7 @@ export default async function LocalizedBlogPage({
           <div className="relative mx-auto aspect-[16/9] w-full max-w-[720px]">
             <div className="absolute inset-0 overflow-hidden rounded-[42px] bg-black/35 shadow-[0_32px_80px_rgba(0,0,0,0.45)] lg:rounded-[62px]">
               <img
-                src="/images/blog/blog_image_16x9.png"
+                src="/images/blog/blog_image_16x9.webp"
                 alt="Tikoncha blog hero cover"
                 className="h-full w-full object-cover"
                 loading="eager"
