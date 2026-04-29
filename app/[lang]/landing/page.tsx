@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { SiteShell } from "@/components/layout/SiteShell";
 import { LandingHero } from "@/components/landing/LandingHero";
+import {
+  ProblemSlider,
+  ConsequencesSlider,
+  NotEnoughSlider,
+  WorldSolutionSlider,
+} from "@/components/home/SliderSections";
+import { HowDoesItWorkTabs } from "@/components/home/HowDoesItWorkTabs";
+import { AboutTikonchaSection } from "@/components/home/AboutTikonchaSection";
 import { buildMetadata } from "@/lib/seo";
 import { localizedStaticParams, resolveRouteLang } from "@/lib/routing";
 import { getTranslations } from "@/lib/i18n/utils";
@@ -34,6 +42,12 @@ export default async function LocalizedLandingPage({ params }: { params: Params 
   return (
     <SiteShell lang={activeLang} routePath="/landing" landingTheme>
       <LandingHero lang={activeLang} t={t} />
+      <ProblemSlider lang={activeLang} />
+      <ConsequencesSlider lang={activeLang} />
+      <WorldSolutionSlider lang={activeLang} />
+      <NotEnoughSlider lang={activeLang} />
+      <HowDoesItWorkTabs lang={activeLang} />
+      <AboutTikonchaSection lang={activeLang} />
     </SiteShell>
   );
 }
