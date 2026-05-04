@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Golos_Text } from "next/font/google";
 import Script from "next/script";
+import { Suspense } from "react";
 import "./globals.css";
 import { siteData } from "@/lib/site-data";
+import { MetaPixelPageView } from "@/components/common/MetaPixelPageView";
 
 const golos = Golos_Text({
   subsets: ["latin", "cyrillic"],
@@ -61,6 +63,9 @@ export default function RootLayout({
         </noscript>
       </head>
       <body suppressHydrationWarning className={`${golos.variable} font-sans text-mist`}>
+        <Suspense fallback={null}>
+          <MetaPixelPageView />
+        </Suspense>
         {children}
       </body>
     </html>
